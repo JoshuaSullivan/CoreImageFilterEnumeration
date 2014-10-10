@@ -1,0 +1,1400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B70EF4219E85012008FBFF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B70EF4119E85012008FBFF4 /* main.m */; };
+		7B70EF4519E85012008FBFF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B70EF4419E85012008FBFF4 /* AppDelegate.m */; };
+		7B70EF4B19E85012008FBFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B70EF4919E85012008FBFF4 /* Main.storyboard */; };
+		7B70EF4D19E85012008FBFF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B70EF4C19E85012008FBFF4 /* Images.xcassets */; };
+		7B70EF5019E85012008FBFF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B70EF4E19E85012008FBFF4 /* LaunchScreen.xib */; };
+		7B70EF5C19E85012008FBFF4 /* CoreImageFilterEnumerationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B70EF5B19E85012008FBFF4 /* CoreImageFilterEnumerationTests.m */; };
+		9474C0194E507A9C4591BB67 /* CIEColorMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C9B55EAC256D62FABF33 /* CIEColorMatrix.m */; };
+		9474C036252958A4DFA3C1B0 /* CIEDotScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C61F3FD9419D9813920E /* CIEDotScreen.m */; };
+		9474C04F384DB22EA9CE438C /* CIEDifferenceBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C0A42AEDBC134EF269F8 /* CIEDifferenceBlendMode.m */; };
+		9474C05630EC7A8A81C12467 /* CIESharpenLuminance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C48A1D400D1BC46CE0AD /* CIESharpenLuminance.m */; };
+		9474C06528351513266721A4 /* CIEHardLightBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CD364F20FF05623E4984 /* CIEHardLightBlendMode.m */; };
+		9474C06A75BFBD4719E4138A /* CIEColorBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C9D253A3E6DFA2C8D821 /* CIEColorBlendMode.m */; };
+		9474C0873DEFA52EB2C1FD07 /* CIEGloom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C64005BAA14B92578664 /* CIEGloom.m */; };
+		9474C091CBDB2A37F9BB7B1B /* CIELinearToSRGBToneCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CADCAB6D5FAFCA4E6C21 /* CIELinearToSRGBToneCurve.m */; };
+		9474C09AF122D940205BC7F4 /* CIEColorPolynomial.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE80716A4B68AE841BB8 /* CIEColorPolynomial.m */; };
+		9474C0BC8293695759E049A0 /* CIEFourfoldTranslatedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C1B5A55DC3059D1EE7E7 /* CIEFourfoldTranslatedTile.m */; };
+		9474C0C8C9854923B95B2234 /* FilterImplementationTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9474C11C4120036089860FF9 /* FilterImplementationTemplate.txt */; };
+		9474C0D1B1E9584BB4D9A562 /* CIEHueAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C40EFBB201603CE0B9B0 /* CIEHueAdjust.m */; };
+		9474C0D8BCAB3B42A879FE0A /* CIEEightfoldReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C9937ECC6D0403F0F2C3 /* CIEEightfoldReflectedTile.m */; };
+		9474C0F5A297A4396D7A5449 /* CIEAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CA1401D03C85DB400917 /* CIEAffineTransform.m */; };
+		9474C0FAE44A4DD7B88A9BC7 /* CIEColorClamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CAD5A0EFD7EED7BBFBFB /* CIEColorClamp.m */; };
+		9474C11FA72A4AA38D1784E3 /* CIEColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE2F386C4189D798D966 /* CIEColorCube.m */; };
+		9474C12A74249F46BD130032 /* CIEBlendWithMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C36DA5D87AF4F185F1E1 /* CIEBlendWithMask.m */; };
+		9474C12C6101496E3065276D /* CIETwelvefoldReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C5DAF6E390170E6E1CE5 /* CIETwelvefoldReflectedTile.m */; };
+		9474C1431EB6E81348183DED /* CIEFilterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C58EC2C350DC901D898D /* CIEFilterBase.m */; };
+		9474C195D053E15F190C7D70 /* CIESwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CF447DCD4DC395D38A06 /* CIESwipeTransition.m */; };
+		9474C19685363042DD7DF528 /* CIELinearDodgeBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C88BD1CD8F01C064487C /* CIELinearDodgeBlendMode.m */; };
+		9474C1AA2FBE5E7C51BC4FBE /* CIELightenBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CFFB526FF857E2024269 /* CIELightenBlendMode.m */; };
+		9474C1B287E6B41EC36053BC /* CIEPixellate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C2CEB3C54CD544181F96 /* CIEPixellate.m */; };
+		9474C1DD248C7B376B7E7AA3 /* CIESixfoldRotatedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C8D63DB3BB42679BB24A /* CIESixfoldRotatedTile.m */; };
+		9474C1E657710BBAFC1B6180 /* CIEPerspectiveCorrection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CC0378ADEFB4E59A886A /* CIEPerspectiveCorrection.m */; };
+		9474C1F7356D2A89250AA0BD /* CIEPerspectiveTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CF5D3EAD044A6873F267 /* CIEPerspectiveTransform.m */; };
+		9474C1FB806CAB2D6C854663 /* CIEPhotoEffectNoir.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CA15CBE6A0110BA327E2 /* CIEPhotoEffectNoir.m */; };
+		9474C1FD579C90D41C73F4E7 /* CIESmoothLinearGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CA214DE0748E3B33A8F2 /* CIESmoothLinearGradient.m */; };
+		9474C1FE4E9C43BC676824AF /* CIECrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C11C2BF215B4AB6DBA6A /* CIECrop.m */; };
+		9474C22BFE9B83AED96650DB /* CIEGaussianGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C7F592352CCDC34471B7 /* CIEGaussianGradient.m */; };
+		9474C22D0AC84D31CA269BAA /* CIEFourfoldRotatedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C7E8D4D06CABD7DD49C3 /* CIEFourfoldRotatedTile.m */; };
+		9474C28CB5A6A6CAA982E002 /* CIEColorMonochrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C470CC8D725C6A940F63 /* CIEColorMonochrome.m */; };
+		9474C28F6436BD5201C90BD1 /* CIEColorDodgeBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C927DCDC5374D29E9088 /* CIEColorDodgeBlendMode.m */; };
+		9474C2A6F810F52C84B5EE88 /* CIEColorCubeWithColorSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C1F414AC4DED12B98D07 /* CIEColorCubeWithColorSpace.m */; };
+		9474C2BD903FAB02CE163789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C95EF3B23D9CABB9346C /* ViewController.m */; };
+		9474C2C9B7756420C06F71C5 /* CIELanczosScaleTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C26E007B6BFF916F996B /* CIELanczosScaleTransform.m */; };
+		9474C2F0FBF38E6FFD5B6F9A /* CIESepiaTone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C7C47473EB6AC3CF7237 /* CIESepiaTone.m */; };
+		9474C2F2A05E57BAE6E49859 /* CIEVibrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C65A304442ECF9EEA82B /* CIEVibrance.m */; };
+		9474C33D63F74C2F62928D2D /* CIELinearBurnBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C316B6002C5275050232 /* CIELinearBurnBlendMode.m */; };
+		9474C3AF3621C42F7F3A34FB /* CIEPhotoEffectMono.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CBE5B73CEB1DE5500660 /* CIEPhotoEffectMono.m */; };
+		9474C3BB4AF7E8B1EFCE8943 /* CIEScreenBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CF05CC18FE0D895C03C5 /* CIEScreenBlendMode.m */; };
+		9474C3F2A1585A613381E4E8 /* CIEConvolution9Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CA03AC4D65DA5C6440D0 /* CIEConvolution9Vertical.m */; };
+		9474C40266A7104EC5AA3173 /* CIEGlassDistortion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CD0BC09BF243DC578BED /* CIEGlassDistortion.m */; };
+		9474C40BE3FF1A98190E07FD /* CIERandomGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C38751AC45C4F5043550 /* CIERandomGenerator.m */; };
+		9474C433A0D34EE50DA57559 /* CIEFilterEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CFA9B29A3ECD85276BA0 /* CIEFilterEnumerator.m */; };
+		9474C44BD9EF9F2BC12EF846 /* CIEMinimumCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CAADE1CE9D66A919CB21 /* CIEMinimumCompositing.m */; };
+		9474C481D9B20E490DD21C45 /* CIEPinchDistortion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C95207332251A0981F76 /* CIEPinchDistortion.m */; };
+		9474C4872C51347CEE1642F5 /* CIEAffineClamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C55474881098A7DBEEC9 /* CIEAffineClamp.m */; };
+		9474C496A7A18ABA93DF9930 /* CIEUnsharpMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C9BC7160BB63CC8068BC /* CIEUnsharpMask.m */; };
+		9474C4A1896D4CC04D218EE1 /* CIEHueBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C576ABF5FA4BE985CE75 /* CIEHueBlendMode.m */; };
+		9474C4E76337652901EE5F9E /* CIESubtractBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C1A55A1EBCD31CF01128 /* CIESubtractBlendMode.m */; };
+		9474C4F19ED764C9B4E076EC /* CIEConstantColorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C2072827FB675EC87896 /* CIEConstantColorGenerator.m */; };
+		9474C4FD1F7815E516904309 /* CIEGlideReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CFA7BDD45C0931B340F2 /* CIEGlideReflectedTile.m */; };
+		9474C528ACDA0B84C5F0A030 /* CIESixfoldReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C1F3C0103BDB3C1B8B75 /* CIESixfoldReflectedTile.m */; };
+		9474C5919934B77776A01B39 /* CIEBlendWithAlphaMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C5A38A6097DA7077252B /* CIEBlendWithAlphaMask.m */; };
+		9474C5E1D8606D0E2CB01190 /* CIEWhitePointAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CBAB640D2D960A1A8FAA /* CIEWhitePointAdjust.m */; };
+		9474C5FD8A7BCB8344143F10 /* CIEHatchedScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C0456DE35FC8A0ABCE17 /* CIEHatchedScreen.m */; };
+		9474C620408107D8577C6476 /* CIEHistogramDisplayFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C26613236E720949EB4A /* CIEHistogramDisplayFilter.m */; };
+		9474C6362D2BCC1BA9A8FCF7 /* CIECircularScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C5270E7BB877195D27F8 /* CIECircularScreen.m */; };
+		9474C65DE5AA2E16FAC1B532 /* CIEColorInvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE9065B3C2254F070CA1 /* CIEColorInvert.m */; };
+		9474C65FACAB17C10744EBC3 /* CIETriangleKaleidoscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CC0411BFE578C5A0DB0B /* CIETriangleKaleidoscope.m */; };
+		9474C668BF34B436BFBE3C85 /* CIEDarkenBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CD25E88A94F06AD2541E /* CIEDarkenBlendMode.m */; };
+		9474C66FAD6BF275E638A0AE /* CIEMaskToAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C95A82332E6BE39C37D7 /* CIEMaskToAlpha.m */; };
+		9474C6913A920A2747947191 /* CIEFourfoldReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C567304413B9C150F689 /* CIEFourfoldReflectedTile.m */; };
+		9474C6A7CBA931413BD81C5D /* CIEDisintegrateWithMaskTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C892520986DB17EB266C /* CIEDisintegrateWithMaskTransition.m */; };
+		9474C6D3A7ADB70476D189B6 /* CIELuminosityBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CF19B4C39D7B7F14D3A9 /* CIELuminosityBlendMode.m */; };
+		9474C6D7168C9D39439FC344 /* CIEFilterDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CAE9C1B17AF833E34BEB /* CIEFilterDescriptor.m */; };
+		9474C6DCA3D917061C9F40BE /* CIEToneCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CCFF52F059D73E23AFC0 /* CIEToneCurve.m */; };
+		9474C6F3565D8DEF6CD369CA /* CIEGaussianBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CBD35BB0EB2582A83AEF /* CIEGaussianBlur.m */; };
+		9474C712B2C9C2017E0CDB12 /* CIEGammaAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE3DE8DF7441215378D6 /* CIEGammaAdjust.m */; };
+		9474C732607E67D2A9D43254 /* CIEBloom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C710F49723DF64C6423C /* CIEBloom.m */; };
+		9474C76A7B4A45FB3B358595 /* CIEBumpDistortion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C5E4BAC318F2CD7B61A7 /* CIEBumpDistortion.m */; };
+		9474C7838CA720002692E22A /* CIEPerspectiveTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE92036E9EA860CF164D /* CIEPerspectiveTile.m */; };
+		9474C7DCC03E71A44EE595D8 /* CIELightTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CA569498A2BAC727D0AF /* CIELightTunnel.m */; };
+		9474C82EB05329F9CA45A97B /* CIEColorPosterize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C60FF504C5EACFEDE854 /* CIEColorPosterize.m */; };
+		9474C84AC945EDC791FB844E /* CIESRGBToneCurveToLinear.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C1B800A1DF264094AFDF /* CIESRGBToneCurveToLinear.m */; };
+		9474C84D76FE99194C0CE93D /* CIEFlashTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C3DF5F5D76D4D4E9FBDD /* CIEFlashTransition.m */; };
+		9474C8625A91919BF3081BF3 /* CIEFalseColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C349DB6D6ADBAD4F1B42 /* CIEFalseColor.m */; };
+		9474C8DDFC997E63812C9961 /* CIETemperatureAndTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C6EEC0F146B30DB51C75 /* CIETemperatureAndTint.m */; };
+		9474C8E5C80F53B223DE8CB4 /* CIEAccordionFoldTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CBB88B7408F030023858 /* CIEAccordionFoldTransition.m */; };
+		9474C916C90AA00D05B56AC9 /* CIEPhotoEffectChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE04832B5242324ECF39 /* CIEPhotoEffectChrome.m */; };
+		9474C9282A03E97660370E22 /* CIEColorMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C7DFB0DEBDA0DB326553 /* CIEColorMap.m */; };
+		9474C93E54EE0F7ADA00B755 /* CIEAztecCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C907BFB25D0AA83A4E83 /* CIEAztecCodeGenerator.m */; };
+		9474C945C44FCBA33D7EA06A /* CIESourceOverCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CB91511A37647F384514 /* CIESourceOverCompositing.m */; };
+		9474C966D86A230A992527D5 /* CIEMinimumComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C2175BDD6CD23DA5813E /* CIEMinimumComponent.m */; };
+		9474C97B5E6D9EF7BBDBC493 /* CIEBarsSwipeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE3BC40EAA16643F72B8 /* CIEBarsSwipeTransition.m */; };
+		9474C9AD38AA3B016F0A3883 /* CIEDissolveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C7A84FFD1437AAC153EA /* CIEDissolveTransition.m */; };
+		9474C9B10E69E8EECDD7172D /* CIEPhotoEffectInstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CD986A26786B8971ED2E /* CIEPhotoEffectInstant.m */; };
+		9474C9B96468ACF0CFA360F3 /* CIEBumpDistortionLinear.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CB48D0B6384F90ABAF83 /* CIEBumpDistortionLinear.m */; };
+		9474C9C516B7B38E1CBC8E5C /* CIEAffineTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C31A259CE1F4A3E04CA6 /* CIEAffineTile.m */; };
+		9474C9CC5D2790746EFCD8B1 /* CIEDivideBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CCC2544C65F05D578258 /* CIEDivideBlendMode.m */; };
+		9474C9CE0815409BA48E321B /* CIEColorCrossPolynomial.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C000159B963CBB36BD00 /* CIEColorCrossPolynomial.m */; };
+		9474C9F41B73EDE457190C53 /* CIEColorControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C0F4C3590688CC0C7634 /* CIEColorControls.m */; };
+		9474CA068B7251CBE37BDCC2 /* CIEColorBurnBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C32BB0F901065602376A /* CIEColorBurnBlendMode.m */; };
+		9474CA0721309E1928E9726C /* CIEPhotoEffectProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C2FF10425C98EA7C5E56 /* CIEPhotoEffectProcess.m */; };
+		9474CA354F3A46017CFB3126 /* CIESourceInCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CEA20324CB2B5D2ED698 /* CIESourceInCompositing.m */; };
+		9474CA3F25B38A676D94A33A /* CIEStraightenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C432EB28B9CA6CCFA3C1 /* CIEStraightenFilter.m */; };
+		9474CA41D6D20958FEBB0E3C /* CIEHighlightShadowAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C242B73146CC97010369 /* CIEHighlightShadowAdjust.m */; };
+		9474CA46A640EB19FCC00399 /* CIEConvolution9Horizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CB2B3E127894C2D54CAB /* CIEConvolution9Horizontal.m */; };
+		9474CA96918A4B32D202251A /* CIEStripesGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C729A53FAC63E4158EAF /* CIEStripesGenerator.m */; };
+		9474CAFCE0CB24B22913B657 /* CIEMaximumCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C4D8DE480AC6B0078A15 /* CIEMaximumCompositing.m */; };
+		9474CB3285C241183905FC2E /* CIEVortexDistortion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C971769990D6FA03A501 /* CIEVortexDistortion.m */; };
+		9474CB5638EECB1A1E8AF37C /* CIELineScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C0E34938D1BDFA451407 /* CIELineScreen.m */; };
+		9474CB67D62812C9124E1AC5 /* CIEVignette.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C7D423B425FC768FCB01 /* CIEVignette.m */; };
+		9474CB7E36D32FDE87CE9AA6 /* CIEAreaHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C48C14EB5B25C022BFA0 /* CIEAreaHistogram.m */; };
+		9474CBBFE75B3C2084261F3D /* CIEMultiplyCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CCD0A68A33FB25AA3381 /* CIEMultiplyCompositing.m */; };
+		9474CBF71BCF9720F83FA641 /* CIESaturationBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C66581357BF4F778A463 /* CIESaturationBlendMode.m */; };
+		9474CC0E772F7FF42B867528 /* CIESoftLightBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C016808B12B700DF3645 /* CIESoftLightBlendMode.m */; };
+		9474CC3B74F2D5CCE7B0773F /* CIELinearGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C97E16577E19CFDA18F9 /* CIELinearGradient.m */; };
+		9474CC3E6EAEE0B920D7BB6A /* CIEConvolution3X3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C4606242CF2A1342BA15 /* CIEConvolution3X3.m */; };
+		9474CC41C70B1A9134918442 /* CIEAdditionCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C152568816DBE93FBEA6 /* CIEAdditionCompositing.m */; };
+		9474CC8CD157D9ED9184079C /* CIEQRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C601FB3D5A1A32649869 /* CIEQRCodeGenerator.m */; };
+		9474CCED7B76692F5FB19BAC /* CIEVignetteEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CA7C9F81D5874122A20D /* CIEVignetteEffect.m */; };
+		9474CD0A670FCB06DC1F4131 /* CIEExclusionBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C72256D351D33EAB9785 /* CIEExclusionBlendMode.m */; };
+		9474CD431F33127D778A4076 /* CIEHoleDistortion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CC23F6E0D29BE3D783D2 /* CIEHoleDistortion.m */; };
+		9474CD5ACD68AB5798903E06 /* CIEExposureAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CCD475C5B15797B06B33 /* CIEExposureAdjust.m */; };
+		9474CD694E4ED2A816C4ED01 /* CIEPinLightBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C9B482A83A50A06322EF /* CIEPinLightBlendMode.m */; };
+		9474CD8CA7EFBDE8880F6772 /* CIECopyMachineTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C9707B42F488913EB98A /* CIECopyMachineTransition.m */; };
+		9474CD9D2DAF25382D61A6EE /* FilterHeaderTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9474CDC953E67DD3A3217A22 /* FilterHeaderTemplate.txt */; };
+		9474CDAA2219DAD2EF259654 /* CIEFilterPropertyDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C96B5B2CBAC10FB7F106 /* CIEFilterPropertyDescriptor.m */; };
+		9474CDBDF3A61F2D0244441C /* CIEStarShineGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CB03F990440E378E9C4C /* CIEStarShineGenerator.m */; };
+		9474CDC44F91B840CBCCD842 /* CIECode128BarcodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C8F842E7CBD95E2DC219 /* CIECode128BarcodeGenerator.m */; };
+		9474CDFDA792411E5E271057 /* CIERadialGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C88B1FB2D69F878A2D95 /* CIERadialGradient.m */; };
+		9474CE165DDCDA6B4CBFBBEC /* CIEMultiplyBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CA9C86672587872EE7B3 /* CIEMultiplyBlendMode.m */; };
+		9474CE186D7374121E1F0AE9 /* CIESourceAtopCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C9B49F075F7C72643F2B /* CIESourceAtopCompositing.m */; };
+		9474CE1EF5A740358663641F /* CIEMaximumComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C701E32044FEEB7ADE8D /* CIEMaximumComponent.m */; };
+		9474CE6F5D97716CAB3A5598 /* CIETwirlDistortion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE8C308910CDE7C31777 /* CIETwirlDistortion.m */; };
+		9474CE96CFC592AFAEE1FF7B /* CIEConvolution5X5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C6E8ECB10BBE1AADD632 /* CIEConvolution5X5.m */; };
+		9474CEECADFC097C703B70DC /* CIEPerspectiveTransformWithExtent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C1C1BC4E00C7FA186D7E /* CIEPerspectiveTransformWithExtent.m */; };
+		9474CEFE2D10B2E483B73C09 /* CIESourceOutCompositing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C58FC1DC19EF7F30CB59 /* CIESourceOutCompositing.m */; };
+		9474CF1DC362093CA0719B71 /* CIEModTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C6BB5B87F53FE8BC8D0F /* CIEModTransition.m */; };
+		9474CFBCD965BBB51DFB3A06 /* CIEPhotoEffectFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CAA9D75346446D0B3C42 /* CIEPhotoEffectFade.m */; };
+		9474CFC3ACBA236402A1BE43 /* CIECheckerboardGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C629F970568A4D6F72C8 /* CIECheckerboardGenerator.m */; };
+		9474CFCA4938A655D135DDFB /* CIEOverlayBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CF2CEEF7C4652DB4ED16 /* CIEOverlayBlendMode.m */; };
+		9474CFCC08A770A9A67F76A9 /* CIEPhotoEffectTonal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C535AE95C95E5E6534E1 /* CIEPhotoEffectTonal.m */; };
+		9474CFF9775BD6BCEB31FAB3 /* CIEPhotoEffectTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CE680E1EB4252DE0B217 /* CIEPhotoEffectTransfer.m */; };
+		9474CFFDA5B7A5C7CAA06945 /* CIECircleSplashDistortion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474CC86ED0CBA98C9D09E4A /* CIECircleSplashDistortion.m */; };
+		FDB3C861C0BCFE5125A9A599 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12B963FE79E3EE082C7BB45E /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B70EF5619E85012008FBFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B70EF3419E85012008FBFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B70EF3B19E85012008FBFF4;
+			remoteInfo = CoreImageFilterEnumeration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B963FE79E3EE082C7BB45E /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7B70EF3C19E85012008FBFF4 /* CoreImageFilterEnumeration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreImageFilterEnumeration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B70EF4019E85012008FBFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B70EF4119E85012008FBFF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B70EF4319E85012008FBFF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B70EF4419E85012008FBFF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B70EF4A19E85012008FBFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B70EF4C19E85012008FBFF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B70EF4F19E85012008FBFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7B70EF5519E85012008FBFF4 /* CoreImageFilterEnumerationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreImageFilterEnumerationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B70EF5A19E85012008FBFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B70EF5B19E85012008FBFF4 /* CoreImageFilterEnumerationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreImageFilterEnumerationTests.m; sourceTree = "<group>"; };
+		9474C000159B963CBB36BD00 /* CIEColorCrossPolynomial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorCrossPolynomial.m; sourceTree = "<group>"; };
+		9474C016808B12B700DF3645 /* CIESoftLightBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESoftLightBlendMode.m; sourceTree = "<group>"; };
+		9474C0198512E13A17C5BA4B /* CIEDarkenBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEDarkenBlendMode.h; sourceTree = "<group>"; };
+		9474C0226A57792E99917168 /* CIEUnsharpMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEUnsharpMask.h; sourceTree = "<group>"; };
+		9474C043C0C3237C58E9F9DB /* CIEMultiplyBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEMultiplyBlendMode.h; sourceTree = "<group>"; };
+		9474C0456DE35FC8A0ABCE17 /* CIEHatchedScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEHatchedScreen.m; sourceTree = "<group>"; };
+		9474C0691089C10D4F5659D6 /* CIEConstantColorGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEConstantColorGenerator.h; sourceTree = "<group>"; };
+		9474C0A42AEDBC134EF269F8 /* CIEDifferenceBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEDifferenceBlendMode.m; sourceTree = "<group>"; };
+		9474C0AA4E63B4B74087FDFC /* CIEFourfoldRotatedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFourfoldRotatedTile.h; sourceTree = "<group>"; };
+		9474C0D83E0409FE67734BD8 /* CIELinearToSRGBToneCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELinearToSRGBToneCurve.h; sourceTree = "<group>"; };
+		9474C0E1A7BC287903A1A5D5 /* CIETwirlDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIETwirlDistortion.h; sourceTree = "<group>"; };
+		9474C0E34938D1BDFA451407 /* CIELineScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELineScreen.m; sourceTree = "<group>"; };
+		9474C0F09691DDE4B205F492 /* CIEGlassDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEGlassDistortion.h; sourceTree = "<group>"; };
+		9474C0F4C3590688CC0C7634 /* CIEColorControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorControls.m; sourceTree = "<group>"; };
+		9474C0FFAF488FBE9CDDBE8A /* CIEMaximumComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEMaximumComponent.h; sourceTree = "<group>"; };
+		9474C11C2BF215B4AB6DBA6A /* CIECrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIECrop.m; sourceTree = "<group>"; };
+		9474C11C4120036089860FF9 /* FilterImplementationTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FilterImplementationTemplate.txt; sourceTree = "<group>"; };
+		9474C12D4037D5C1D9B0EEB9 /* CIELanczosScaleTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELanczosScaleTransform.h; sourceTree = "<group>"; };
+		9474C1387571871477E19B93 /* CIEConvolution9Horizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEConvolution9Horizontal.h; sourceTree = "<group>"; };
+		9474C143B39E0D565B4E6528 /* CIESharpenLuminance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESharpenLuminance.h; sourceTree = "<group>"; };
+		9474C152568816DBE93FBEA6 /* CIEAdditionCompositing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEAdditionCompositing.m; sourceTree = "<group>"; };
+		9474C152CFE14926696BA218 /* CIEBlendWithMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEBlendWithMask.h; sourceTree = "<group>"; };
+		9474C15B118A7E7E9AB3A1C4 /* CIEHoleDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEHoleDistortion.h; sourceTree = "<group>"; };
+		9474C1618B0515A0D2C6FCA1 /* CIEBloom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEBloom.h; sourceTree = "<group>"; };
+		9474C16D9BF73E7E6F45E465 /* CIEFalseColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFalseColor.h; sourceTree = "<group>"; };
+		9474C17450222163AD250002 /* CIEAztecCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAztecCodeGenerator.h; sourceTree = "<group>"; };
+		9474C18964C5B64825801D32 /* CIEGaussianGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEGaussianGradient.h; sourceTree = "<group>"; };
+		9474C18D30C7313EBA186395 /* CIECode128BarcodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIECode128BarcodeGenerator.h; sourceTree = "<group>"; };
+		9474C19DE671695B65A40618 /* CIELinearBurnBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELinearBurnBlendMode.h; sourceTree = "<group>"; };
+		9474C1A55A1EBCD31CF01128 /* CIESubtractBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESubtractBlendMode.m; sourceTree = "<group>"; };
+		9474C1B5A55DC3059D1EE7E7 /* CIEFourfoldTranslatedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFourfoldTranslatedTile.m; sourceTree = "<group>"; };
+		9474C1B800A1DF264094AFDF /* CIESRGBToneCurveToLinear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESRGBToneCurveToLinear.m; sourceTree = "<group>"; };
+		9474C1BDB259E97E994581A8 /* CIEStraightenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEStraightenFilter.h; sourceTree = "<group>"; };
+		9474C1C1BC4E00C7FA186D7E /* CIEPerspectiveTransformWithExtent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPerspectiveTransformWithExtent.m; sourceTree = "<group>"; };
+		9474C1EA27ADA0700B53E17F /* CIEVignette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEVignette.h; sourceTree = "<group>"; };
+		9474C1F068D4F82B1ABF61B0 /* CIESourceOutCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESourceOutCompositing.h; sourceTree = "<group>"; };
+		9474C1F3C0103BDB3C1B8B75 /* CIESixfoldReflectedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESixfoldReflectedTile.m; sourceTree = "<group>"; };
+		9474C1F3EE18FF70C7C82CB8 /* CIEColorPolynomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorPolynomial.h; sourceTree = "<group>"; };
+		9474C1F414AC4DED12B98D07 /* CIEColorCubeWithColorSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorCubeWithColorSpace.m; sourceTree = "<group>"; };
+		9474C2072827FB675EC87896 /* CIEConstantColorGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEConstantColorGenerator.m; sourceTree = "<group>"; };
+		9474C20A187B3A1E945643EE /* CIESourceOverCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESourceOverCompositing.h; sourceTree = "<group>"; };
+		9474C2108EC7797E1B0B5951 /* CIESoftLightBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESoftLightBlendMode.h; sourceTree = "<group>"; };
+		9474C2175BDD6CD23DA5813E /* CIEMinimumComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEMinimumComponent.m; sourceTree = "<group>"; };
+		9474C242B73146CC97010369 /* CIEHighlightShadowAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEHighlightShadowAdjust.m; sourceTree = "<group>"; };
+		9474C243AA37DA38CB3623B2 /* CIEPhotoEffectFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPhotoEffectFade.h; sourceTree = "<group>"; };
+		9474C249E9B4218692C04529 /* CIEFilterEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFilterEnumerator.h; sourceTree = "<group>"; };
+		9474C26613236E720949EB4A /* CIEHistogramDisplayFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEHistogramDisplayFilter.m; sourceTree = "<group>"; };
+		9474C26E007B6BFF916F996B /* CIELanczosScaleTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELanczosScaleTransform.m; sourceTree = "<group>"; };
+		9474C29A57F4AF8FF70B84C5 /* CIEFilterPropertyDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFilterPropertyDescriptor.h; sourceTree = "<group>"; };
+		9474C2A4ED58ABC6CDEA67F9 /* CIEFilterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFilterBase.h; sourceTree = "<group>"; };
+		9474C2A91FDA00AAFB3F680B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9474C2AF3E2BE1B0F5AE76FA /* CIEConvolution5X5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEConvolution5X5.h; sourceTree = "<group>"; };
+		9474C2B0B888D0A807DF8A7A /* CIEFilterDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFilterDescriptor.h; sourceTree = "<group>"; };
+		9474C2CEB3C54CD544181F96 /* CIEPixellate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPixellate.m; sourceTree = "<group>"; };
+		9474C2FF10425C98EA7C5E56 /* CIEPhotoEffectProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPhotoEffectProcess.m; sourceTree = "<group>"; };
+		9474C316B6002C5275050232 /* CIELinearBurnBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELinearBurnBlendMode.m; sourceTree = "<group>"; };
+		9474C31A259CE1F4A3E04CA6 /* CIEAffineTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEAffineTile.m; sourceTree = "<group>"; };
+		9474C32AB7F1A25BDCB7667E /* CIEVortexDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEVortexDistortion.h; sourceTree = "<group>"; };
+		9474C32BB0F901065602376A /* CIEColorBurnBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorBurnBlendMode.m; sourceTree = "<group>"; };
+		9474C339FD696FB145D64A29 /* CIESourceAtopCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESourceAtopCompositing.h; sourceTree = "<group>"; };
+		9474C341B3E51F1134B94584 /* CIEDotScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEDotScreen.h; sourceTree = "<group>"; };
+		9474C349DB6D6ADBAD4F1B42 /* CIEFalseColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFalseColor.m; sourceTree = "<group>"; };
+		9474C36DA5D87AF4F185F1E1 /* CIEBlendWithMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEBlendWithMask.m; sourceTree = "<group>"; };
+		9474C38751AC45C4F5043550 /* CIERandomGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIERandomGenerator.m; sourceTree = "<group>"; };
+		9474C396E3BE61054BE9D286 /* CIEColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorMatrix.h; sourceTree = "<group>"; };
+		9474C3A1CE53D53CCFDFCAB5 /* CIEExclusionBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEExclusionBlendMode.h; sourceTree = "<group>"; };
+		9474C3AE3C568B3CE1662F00 /* CIEScreenBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEScreenBlendMode.h; sourceTree = "<group>"; };
+		9474C3DF5F5D76D4D4E9FBDD /* CIEFlashTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFlashTransition.m; sourceTree = "<group>"; };
+		9474C3F7C210577C2BF4F6CA /* CIEModTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEModTransition.h; sourceTree = "<group>"; };
+		9474C40EFBB201603CE0B9B0 /* CIEHueAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEHueAdjust.m; sourceTree = "<group>"; };
+		9474C432EB28B9CA6CCFA3C1 /* CIEStraightenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEStraightenFilter.m; sourceTree = "<group>"; };
+		9474C4502B12697A60DC64D9 /* CIEVignetteEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEVignetteEffect.h; sourceTree = "<group>"; };
+		9474C4590C38A66897E888F6 /* CIEConvolution3X3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEConvolution3X3.h; sourceTree = "<group>"; };
+		9474C4606242CF2A1342BA15 /* CIEConvolution3X3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEConvolution3X3.m; sourceTree = "<group>"; };
+		9474C470CC8D725C6A940F63 /* CIEColorMonochrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorMonochrome.m; sourceTree = "<group>"; };
+		9474C48A1D400D1BC46CE0AD /* CIESharpenLuminance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESharpenLuminance.m; sourceTree = "<group>"; };
+		9474C48C14EB5B25C022BFA0 /* CIEAreaHistogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEAreaHistogram.m; sourceTree = "<group>"; };
+		9474C49139506323A43ADB00 /* CIESmoothLinearGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESmoothLinearGradient.h; sourceTree = "<group>"; };
+		9474C4AC2A38E96170E845A1 /* CIETriangleKaleidoscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIETriangleKaleidoscope.h; sourceTree = "<group>"; };
+		9474C4D8DE480AC6B0078A15 /* CIEMaximumCompositing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEMaximumCompositing.m; sourceTree = "<group>"; };
+		9474C4F688AF32A70F93394C /* CIEAdditionCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAdditionCompositing.h; sourceTree = "<group>"; };
+		9474C50481D624A3629DD19E /* CIEFlashTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFlashTransition.h; sourceTree = "<group>"; };
+		9474C511432DEC9DF46F7555 /* CIEColorControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorControls.h; sourceTree = "<group>"; };
+		9474C51D9E03DCCE505BBFB5 /* CIECircularScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIECircularScreen.h; sourceTree = "<group>"; };
+		9474C5270E7BB877195D27F8 /* CIECircularScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIECircularScreen.m; sourceTree = "<group>"; };
+		9474C52928D4724D399E1A68 /* CIEDisintegrateWithMaskTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEDisintegrateWithMaskTransition.h; sourceTree = "<group>"; };
+		9474C535AE95C95E5E6534E1 /* CIEPhotoEffectTonal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPhotoEffectTonal.m; sourceTree = "<group>"; };
+		9474C53E3721F6B76AC5CAC8 /* CIEMaximumCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEMaximumCompositing.h; sourceTree = "<group>"; };
+		9474C55474881098A7DBEEC9 /* CIEAffineClamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEAffineClamp.m; sourceTree = "<group>"; };
+		9474C5603C5206408CF1B36D /* CIEDissolveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEDissolveTransition.h; sourceTree = "<group>"; };
+		9474C562772A3C4CE0112982 /* CIEColorInvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorInvert.h; sourceTree = "<group>"; };
+		9474C567304413B9C150F689 /* CIEFourfoldReflectedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFourfoldReflectedTile.m; sourceTree = "<group>"; };
+		9474C576ABF5FA4BE985CE75 /* CIEHueBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEHueBlendMode.m; sourceTree = "<group>"; };
+		9474C58EC2C350DC901D898D /* CIEFilterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFilterBase.m; sourceTree = "<group>"; };
+		9474C58FC1DC19EF7F30CB59 /* CIESourceOutCompositing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESourceOutCompositing.m; sourceTree = "<group>"; };
+		9474C5A38A6097DA7077252B /* CIEBlendWithAlphaMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEBlendWithAlphaMask.m; sourceTree = "<group>"; };
+		9474C5DAF6E390170E6E1CE5 /* CIETwelvefoldReflectedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIETwelvefoldReflectedTile.m; sourceTree = "<group>"; };
+		9474C5E3BBF0ECA7B5F7E17E /* CIEColorBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorBlendMode.h; sourceTree = "<group>"; };
+		9474C5E4BAC318F2CD7B61A7 /* CIEBumpDistortion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEBumpDistortion.m; sourceTree = "<group>"; };
+		9474C5EEA4350544C676E8C9 /* CIEHueAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEHueAdjust.h; sourceTree = "<group>"; };
+		9474C6017FE2CA91E10A4CC0 /* CIEConvolution9Vertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEConvolution9Vertical.h; sourceTree = "<group>"; };
+		9474C601FB3D5A1A32649869 /* CIEQRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEQRCodeGenerator.m; sourceTree = "<group>"; };
+		9474C60EB2BC6F74C606F481 /* CIEQRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEQRCodeGenerator.h; sourceTree = "<group>"; };
+		9474C60FF504C5EACFEDE854 /* CIEColorPosterize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorPosterize.m; sourceTree = "<group>"; };
+		9474C61DCC6A854C0FE9C719 /* CIEPhotoEffectProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPhotoEffectProcess.h; sourceTree = "<group>"; };
+		9474C61EF97015C400AFAA99 /* CIETwelvefoldReflectedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIETwelvefoldReflectedTile.h; sourceTree = "<group>"; };
+		9474C61F3FD9419D9813920E /* CIEDotScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEDotScreen.m; sourceTree = "<group>"; };
+		9474C624C0CA6312B720152A /* CIELightenBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELightenBlendMode.h; sourceTree = "<group>"; };
+		9474C6291702496FF2392DC3 /* CIEAffineTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAffineTile.h; sourceTree = "<group>"; };
+		9474C629F970568A4D6F72C8 /* CIECheckerboardGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIECheckerboardGenerator.m; sourceTree = "<group>"; };
+		9474C64005BAA14B92578664 /* CIEGloom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEGloom.m; sourceTree = "<group>"; };
+		9474C658260BD759C84FDB3E /* CIEBumpDistortionLinear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEBumpDistortionLinear.h; sourceTree = "<group>"; };
+		9474C65A304442ECF9EEA82B /* CIEVibrance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEVibrance.m; sourceTree = "<group>"; };
+		9474C66581357BF4F778A463 /* CIESaturationBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESaturationBlendMode.m; sourceTree = "<group>"; };
+		9474C665DEE3BF0C26CAD697 /* CIEPhotoEffectTonal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPhotoEffectTonal.h; sourceTree = "<group>"; };
+		9474C68903C6837C72BBD6F8 /* CIEColorMonochrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorMonochrome.h; sourceTree = "<group>"; };
+		9474C69E89FCAA3F8CF7E9C9 /* CIEColorCrossPolynomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorCrossPolynomial.h; sourceTree = "<group>"; };
+		9474C6BB5B87F53FE8BC8D0F /* CIEModTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEModTransition.m; sourceTree = "<group>"; };
+		9474C6C2CC265021CCCFF742 /* CIEColorBurnBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorBurnBlendMode.h; sourceTree = "<group>"; };
+		9474C6E8ECB10BBE1AADD632 /* CIEConvolution5X5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEConvolution5X5.m; sourceTree = "<group>"; };
+		9474C6EEC0F146B30DB51C75 /* CIETemperatureAndTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIETemperatureAndTint.m; sourceTree = "<group>"; };
+		9474C701E32044FEEB7ADE8D /* CIEMaximumComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEMaximumComponent.m; sourceTree = "<group>"; };
+		9474C710F49723DF64C6423C /* CIEBloom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEBloom.m; sourceTree = "<group>"; };
+		9474C72256D351D33EAB9785 /* CIEExclusionBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEExclusionBlendMode.m; sourceTree = "<group>"; };
+		9474C729A53FAC63E4158EAF /* CIEStripesGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEStripesGenerator.m; sourceTree = "<group>"; };
+		9474C72A20E43D8508BB0BB4 /* CIEColorClamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorClamp.h; sourceTree = "<group>"; };
+		9474C738868A9385F967DFDC /* CIECheckerboardGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIECheckerboardGenerator.h; sourceTree = "<group>"; };
+		9474C741680C3759D8FE3CEF /* CIEPhotoEffectNoir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPhotoEffectNoir.h; sourceTree = "<group>"; };
+		9474C7466F27559C05027366 /* CIESRGBToneCurveToLinear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESRGBToneCurveToLinear.h; sourceTree = "<group>"; };
+		9474C77D7D00ED2839F4FBF8 /* CIECrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIECrop.h; sourceTree = "<group>"; };
+		9474C78E4B162B09E4B55F90 /* CIEAffineClamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAffineClamp.h; sourceTree = "<group>"; };
+		9474C7952905A26351DABA02 /* CIEPixellate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPixellate.h; sourceTree = "<group>"; };
+		9474C7A84FFD1437AAC153EA /* CIEDissolveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEDissolveTransition.m; sourceTree = "<group>"; };
+		9474C7A88D9420403F35FF18 /* CIEPinLightBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPinLightBlendMode.h; sourceTree = "<group>"; };
+		9474C7B9448E62E856D59829 /* CIEColorCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorCube.h; sourceTree = "<group>"; };
+		9474C7BDC6D34A3D1F094E40 /* CIEPerspectiveTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPerspectiveTile.h; sourceTree = "<group>"; };
+		9474C7C47473EB6AC3CF7237 /* CIESepiaTone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESepiaTone.m; sourceTree = "<group>"; };
+		9474C7C895E9FF0D8877257E /* CIEAffineTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAffineTransform.h; sourceTree = "<group>"; };
+		9474C7D308DB8E96DE99AFB0 /* CIESubtractBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESubtractBlendMode.h; sourceTree = "<group>"; };
+		9474C7D423B425FC768FCB01 /* CIEVignette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEVignette.m; sourceTree = "<group>"; };
+		9474C7DDB0A8F017DDD335D3 /* CIEStripesGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEStripesGenerator.h; sourceTree = "<group>"; };
+		9474C7DFB0DEBDA0DB326553 /* CIEColorMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorMap.m; sourceTree = "<group>"; };
+		9474C7E8D4D06CABD7DD49C3 /* CIEFourfoldRotatedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFourfoldRotatedTile.m; sourceTree = "<group>"; };
+		9474C7F592352CCDC34471B7 /* CIEGaussianGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEGaussianGradient.m; sourceTree = "<group>"; };
+		9474C825880E4E6B65AB5EDC /* CIEPhotoEffectTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPhotoEffectTransfer.h; sourceTree = "<group>"; };
+		9474C861B9D07D82512AC687 /* CIEMultiplyCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEMultiplyCompositing.h; sourceTree = "<group>"; };
+		9474C8796C275D1793C25270 /* CIELuminosityBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELuminosityBlendMode.h; sourceTree = "<group>"; };
+		9474C87AD8BE06400B4CCE9E /* CIEPhotoEffectInstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPhotoEffectInstant.h; sourceTree = "<group>"; };
+		9474C87BDBEEA8EFEC2C0CA3 /* CIEWhitePointAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEWhitePointAdjust.h; sourceTree = "<group>"; };
+		9474C88B1FB2D69F878A2D95 /* CIERadialGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIERadialGradient.m; sourceTree = "<group>"; };
+		9474C88BD1CD8F01C064487C /* CIELinearDodgeBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELinearDodgeBlendMode.m; sourceTree = "<group>"; };
+		9474C892520986DB17EB266C /* CIEDisintegrateWithMaskTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEDisintegrateWithMaskTransition.m; sourceTree = "<group>"; };
+		9474C89ED4E3234382547F4C /* CIELinearDodgeBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELinearDodgeBlendMode.h; sourceTree = "<group>"; };
+		9474C8C006CA396DEFD68D82 /* CIEPerspectiveCorrection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPerspectiveCorrection.h; sourceTree = "<group>"; };
+		9474C8D63DB3BB42679BB24A /* CIESixfoldRotatedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESixfoldRotatedTile.m; sourceTree = "<group>"; };
+		9474C8E46B5B58162693CBE0 /* CIELineScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELineScreen.h; sourceTree = "<group>"; };
+		9474C8F69872A56280D77548 /* CIEHistogramDisplayFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEHistogramDisplayFilter.h; sourceTree = "<group>"; };
+		9474C8F842E7CBD95E2DC219 /* CIECode128BarcodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIECode128BarcodeGenerator.m; sourceTree = "<group>"; };
+		9474C901C27FEA49A8BAC436 /* CIECircleSplashDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIECircleSplashDistortion.h; sourceTree = "<group>"; };
+		9474C9051FDEC90DB99B3DB2 /* CIEStarShineGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEStarShineGenerator.h; sourceTree = "<group>"; };
+		9474C907BFB25D0AA83A4E83 /* CIEAztecCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEAztecCodeGenerator.m; sourceTree = "<group>"; };
+		9474C91605190DEE1DE2AE43 /* CIEBarsSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEBarsSwipeTransition.h; sourceTree = "<group>"; };
+		9474C926E9D56244852768FE /* CIERadialGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIERadialGradient.h; sourceTree = "<group>"; };
+		9474C927DCDC5374D29E9088 /* CIEColorDodgeBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorDodgeBlendMode.m; sourceTree = "<group>"; };
+		9474C93D43661700865FC6B7 /* CIEGloom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEGloom.h; sourceTree = "<group>"; };
+		9474C94735CF0907DB6DDAB1 /* CIEVibrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEVibrance.h; sourceTree = "<group>"; };
+		9474C95207332251A0981F76 /* CIEPinchDistortion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPinchDistortion.m; sourceTree = "<group>"; };
+		9474C95A82332E6BE39C37D7 /* CIEMaskToAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEMaskToAlpha.m; sourceTree = "<group>"; };
+		9474C95EF3B23D9CABB9346C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9474C96B5B2CBAC10FB7F106 /* CIEFilterPropertyDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFilterPropertyDescriptor.m; sourceTree = "<group>"; };
+		9474C9707B42F488913EB98A /* CIECopyMachineTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIECopyMachineTransition.m; sourceTree = "<group>"; };
+		9474C971769990D6FA03A501 /* CIEVortexDistortion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEVortexDistortion.m; sourceTree = "<group>"; };
+		9474C97E16577E19CFDA18F9 /* CIELinearGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELinearGradient.m; sourceTree = "<group>"; };
+		9474C9937ECC6D0403F0F2C3 /* CIEEightfoldReflectedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEEightfoldReflectedTile.m; sourceTree = "<group>"; };
+		9474C9AABBFA0CB3BDD5F46A /* CIEPhotoEffectChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPhotoEffectChrome.h; sourceTree = "<group>"; };
+		9474C9B482A83A50A06322EF /* CIEPinLightBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPinLightBlendMode.m; sourceTree = "<group>"; };
+		9474C9B49F075F7C72643F2B /* CIESourceAtopCompositing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESourceAtopCompositing.m; sourceTree = "<group>"; };
+		9474C9B55EAC256D62FABF33 /* CIEColorMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorMatrix.m; sourceTree = "<group>"; };
+		9474C9BC7160BB63CC8068BC /* CIEUnsharpMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEUnsharpMask.m; sourceTree = "<group>"; };
+		9474C9BCCD81490FCA05AA6E /* CIEColorDodgeBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorDodgeBlendMode.h; sourceTree = "<group>"; };
+		9474C9D253A3E6DFA2C8D821 /* CIEColorBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorBlendMode.m; sourceTree = "<group>"; };
+		9474C9E168D88A842C6F9F00 /* CIESwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESwipeTransition.h; sourceTree = "<group>"; };
+		9474C9F17BCD40D26C6899CD /* CIESixfoldReflectedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESixfoldReflectedTile.h; sourceTree = "<group>"; };
+		9474C9F4028CA55276BF86A3 /* CIEDivideBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEDivideBlendMode.h; sourceTree = "<group>"; };
+		9474C9F563F57FC6B4788C8F /* CIESourceInCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESourceInCompositing.h; sourceTree = "<group>"; };
+		9474CA03AC4D65DA5C6440D0 /* CIEConvolution9Vertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEConvolution9Vertical.m; sourceTree = "<group>"; };
+		9474CA1401D03C85DB400917 /* CIEAffineTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEAffineTransform.m; sourceTree = "<group>"; };
+		9474CA15CBE6A0110BA327E2 /* CIEPhotoEffectNoir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPhotoEffectNoir.m; sourceTree = "<group>"; };
+		9474CA214DE0748E3B33A8F2 /* CIESmoothLinearGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESmoothLinearGradient.m; sourceTree = "<group>"; };
+		9474CA29D0AF931318BF8982 /* CIEAccordionFoldTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAccordionFoldTransition.h; sourceTree = "<group>"; };
+		9474CA3120E78BC22F1D79A3 /* CIEMinimumCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEMinimumCompositing.h; sourceTree = "<group>"; };
+		9474CA330BCFC7ECD884C4CB /* CIEGlideReflectedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEGlideReflectedTile.h; sourceTree = "<group>"; };
+		9474CA4DEAE04DA2D6110B30 /* CIESixfoldRotatedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESixfoldRotatedTile.h; sourceTree = "<group>"; };
+		9474CA569498A2BAC727D0AF /* CIELightTunnel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELightTunnel.m; sourceTree = "<group>"; };
+		9474CA5EE2B9390A4DBEF134 /* CIEPerspectiveTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPerspectiveTransform.h; sourceTree = "<group>"; };
+		9474CA7C9F81D5874122A20D /* CIEVignetteEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEVignetteEffect.m; sourceTree = "<group>"; };
+		9474CA9C86672587872EE7B3 /* CIEMultiplyBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEMultiplyBlendMode.m; sourceTree = "<group>"; };
+		9474CAA9D75346446D0B3C42 /* CIEPhotoEffectFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPhotoEffectFade.m; sourceTree = "<group>"; };
+		9474CAADE1CE9D66A919CB21 /* CIEMinimumCompositing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEMinimumCompositing.m; sourceTree = "<group>"; };
+		9474CAB3B16EF55D053178A5 /* CIEOverlayBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEOverlayBlendMode.h; sourceTree = "<group>"; };
+		9474CAD5A0EFD7EED7BBFBFB /* CIEColorClamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorClamp.m; sourceTree = "<group>"; };
+		9474CADCAB6D5FAFCA4E6C21 /* CIELinearToSRGBToneCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELinearToSRGBToneCurve.m; sourceTree = "<group>"; };
+		9474CAE9C1B17AF833E34BEB /* CIEFilterDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFilterDescriptor.m; sourceTree = "<group>"; };
+		9474CAF2D23064B0B4F903A1 /* CIEFourfoldReflectedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFourfoldReflectedTile.h; sourceTree = "<group>"; };
+		9474CB03F990440E378E9C4C /* CIEStarShineGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEStarShineGenerator.m; sourceTree = "<group>"; };
+		9474CB2B3E127894C2D54CAB /* CIEConvolution9Horizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEConvolution9Horizontal.m; sourceTree = "<group>"; };
+		9474CB48D0B6384F90ABAF83 /* CIEBumpDistortionLinear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEBumpDistortionLinear.m; sourceTree = "<group>"; };
+		9474CB6D4A65C5B5899DE5EA /* CIEBlendWithAlphaMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEBlendWithAlphaMask.h; sourceTree = "<group>"; };
+		9474CB6F671AA93D37950A9B /* CIEMaskToAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEMaskToAlpha.h; sourceTree = "<group>"; };
+		9474CB91511A37647F384514 /* CIESourceOverCompositing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESourceOverCompositing.m; sourceTree = "<group>"; };
+		9474CB9AC3EE40B214980295 /* CIEEightfoldReflectedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEEightfoldReflectedTile.h; sourceTree = "<group>"; };
+		9474CBAB640D2D960A1A8FAA /* CIEWhitePointAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEWhitePointAdjust.m; sourceTree = "<group>"; };
+		9474CBAB9EA2AABAC66013F3 /* CIEHardLightBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEHardLightBlendMode.h; sourceTree = "<group>"; };
+		9474CBB88B7408F030023858 /* CIEAccordionFoldTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEAccordionFoldTransition.m; sourceTree = "<group>"; };
+		9474CBD35BB0EB2582A83AEF /* CIEGaussianBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEGaussianBlur.m; sourceTree = "<group>"; };
+		9474CBE448D518897766D769 /* CIEBumpDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEBumpDistortion.h; sourceTree = "<group>"; };
+		9474CBE5B73CEB1DE5500660 /* CIEPhotoEffectMono.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPhotoEffectMono.m; sourceTree = "<group>"; };
+		9474CC0378ADEFB4E59A886A /* CIEPerspectiveCorrection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPerspectiveCorrection.m; sourceTree = "<group>"; };
+		9474CC0411BFE578C5A0DB0B /* CIETriangleKaleidoscope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIETriangleKaleidoscope.m; sourceTree = "<group>"; };
+		9474CC044B8745317D408824 /* CIELightTunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELightTunnel.h; sourceTree = "<group>"; };
+		9474CC23F6E0D29BE3D783D2 /* CIEHoleDistortion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEHoleDistortion.m; sourceTree = "<group>"; };
+		9474CC5027889A8CED248FEB /* CIETemperatureAndTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIETemperatureAndTint.h; sourceTree = "<group>"; };
+		9474CC86ED0CBA98C9D09E4A /* CIECircleSplashDistortion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIECircleSplashDistortion.m; sourceTree = "<group>"; };
+		9474CCAC5D0C916B51B2976F /* CIEMinimumComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEMinimumComponent.h; sourceTree = "<group>"; };
+		9474CCC2544C65F05D578258 /* CIEDivideBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEDivideBlendMode.m; sourceTree = "<group>"; };
+		9474CCD0A68A33FB25AA3381 /* CIEMultiplyCompositing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEMultiplyCompositing.m; sourceTree = "<group>"; };
+		9474CCD475C5B15797B06B33 /* CIEExposureAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEExposureAdjust.m; sourceTree = "<group>"; };
+		9474CCFF52F059D73E23AFC0 /* CIEToneCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEToneCurve.m; sourceTree = "<group>"; };
+		9474CD0BC09BF243DC578BED /* CIEGlassDistortion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEGlassDistortion.m; sourceTree = "<group>"; };
+		9474CD25E88A94F06AD2541E /* CIEDarkenBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEDarkenBlendMode.m; sourceTree = "<group>"; };
+		9474CD26799ADF0A23B842B7 /* CIEHueBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEHueBlendMode.h; sourceTree = "<group>"; };
+		9474CD364F20FF05623E4984 /* CIEHardLightBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEHardLightBlendMode.m; sourceTree = "<group>"; };
+		9474CD55009B19C831367344 /* CIESepiaTone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESepiaTone.h; sourceTree = "<group>"; };
+		9474CD986A26786B8971ED2E /* CIEPhotoEffectInstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPhotoEffectInstant.m; sourceTree = "<group>"; };
+		9474CDBB8720CDA9072C3A9D /* CIEPerspectiveTransformWithExtent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPerspectiveTransformWithExtent.h; sourceTree = "<group>"; };
+		9474CDC953E67DD3A3217A22 /* FilterHeaderTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FilterHeaderTemplate.txt; sourceTree = "<group>"; };
+		9474CDCA9ACCF76873E04FDD /* CIEDifferenceBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEDifferenceBlendMode.h; sourceTree = "<group>"; };
+		9474CDE6B358A2DE8DF26B0A /* CIEColorPosterize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorPosterize.h; sourceTree = "<group>"; };
+		9474CDE8441407CBC4E219A5 /* CIEPhotoEffectMono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPhotoEffectMono.h; sourceTree = "<group>"; };
+		9474CE04832B5242324ECF39 /* CIEPhotoEffectChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPhotoEffectChrome.m; sourceTree = "<group>"; };
+		9474CE2F386C4189D798D966 /* CIEColorCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorCube.m; sourceTree = "<group>"; };
+		9474CE3BC40EAA16643F72B8 /* CIEBarsSwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEBarsSwipeTransition.m; sourceTree = "<group>"; };
+		9474CE3C198D475772F41CE2 /* CIEToneCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEToneCurve.h; sourceTree = "<group>"; };
+		9474CE3DE8DF7441215378D6 /* CIEGammaAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEGammaAdjust.m; sourceTree = "<group>"; };
+		9474CE4FA9495B2D2094AFFB /* CIEPinchDistortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEPinchDistortion.h; sourceTree = "<group>"; };
+		9474CE680E1EB4252DE0B217 /* CIEPhotoEffectTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPhotoEffectTransfer.m; sourceTree = "<group>"; };
+		9474CE80716A4B68AE841BB8 /* CIEColorPolynomial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorPolynomial.m; sourceTree = "<group>"; };
+		9474CE80A18EB291253EA265 /* CIEGaussianBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEGaussianBlur.h; sourceTree = "<group>"; };
+		9474CE8C308910CDE7C31777 /* CIETwirlDistortion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIETwirlDistortion.m; sourceTree = "<group>"; };
+		9474CE9065B3C2254F070CA1 /* CIEColorInvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEColorInvert.m; sourceTree = "<group>"; };
+		9474CE92036E9EA860CF164D /* CIEPerspectiveTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPerspectiveTile.m; sourceTree = "<group>"; };
+		9474CE962105ADBAB2CEC8F9 /* CIESaturationBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIESaturationBlendMode.h; sourceTree = "<group>"; };
+		9474CEA20324CB2B5D2ED698 /* CIESourceInCompositing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESourceInCompositing.m; sourceTree = "<group>"; };
+		9474CEBAEB26C10DB27D623B /* CIEFourfoldTranslatedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEFourfoldTranslatedTile.h; sourceTree = "<group>"; };
+		9474CECC016BE2473C8980A6 /* CIEHatchedScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEHatchedScreen.h; sourceTree = "<group>"; };
+		9474CECEFEA5423848ED15B9 /* CIECopyMachineTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIECopyMachineTransition.h; sourceTree = "<group>"; };
+		9474CEDCF1A682D7B4BCCE6A /* CIEExposureAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEExposureAdjust.h; sourceTree = "<group>"; };
+		9474CF05CC18FE0D895C03C5 /* CIEScreenBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEScreenBlendMode.m; sourceTree = "<group>"; };
+		9474CF05E620B014B9E2F13B /* CIERandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIERandomGenerator.h; sourceTree = "<group>"; };
+		9474CF0E92E3417D7B998A0B /* CIEGammaAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEGammaAdjust.h; sourceTree = "<group>"; };
+		9474CF153C81B917A4E68BF3 /* CIEColorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorMap.h; sourceTree = "<group>"; };
+		9474CF19B4C39D7B7F14D3A9 /* CIELuminosityBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELuminosityBlendMode.m; sourceTree = "<group>"; };
+		9474CF2CEEF7C4652DB4ED16 /* CIEOverlayBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEOverlayBlendMode.m; sourceTree = "<group>"; };
+		9474CF447DCD4DC395D38A06 /* CIESwipeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIESwipeTransition.m; sourceTree = "<group>"; };
+		9474CF55D9D3C73111C9F711 /* CIEColorCubeWithColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEColorCubeWithColorSpace.h; sourceTree = "<group>"; };
+		9474CF5D3EAD044A6873F267 /* CIEPerspectiveTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEPerspectiveTransform.m; sourceTree = "<group>"; };
+		9474CF801A2BAB4D852A3B3A /* CIEHighlightShadowAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEHighlightShadowAdjust.h; sourceTree = "<group>"; };
+		9474CF956C1D4BC7653EF871 /* CIELinearGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIELinearGradient.h; sourceTree = "<group>"; };
+		9474CFA7BDD45C0931B340F2 /* CIEGlideReflectedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEGlideReflectedTile.m; sourceTree = "<group>"; };
+		9474CFA9B29A3ECD85276BA0 /* CIEFilterEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEFilterEnumerator.m; sourceTree = "<group>"; };
+		9474CFCB96B7CCDE10C1B70B /* CIEAreaHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAreaHistogram.h; sourceTree = "<group>"; };
+		9474CFFB526FF857E2024269 /* CIELightenBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIELightenBlendMode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B70EF3919E85012008FBFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B70EF5219E85012008FBFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439035293CEFD0BF916EC3D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9474C95EF3B23D9CABB9346C /* ViewController.m */,
+				9474C2A91FDA00AAFB3F680B /* ViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D3D1E3F66F689C34CE8C7E4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9474C11C4120036089860FF9 /* FilterImplementationTemplate.txt */,
+				9474CDC953E67DD3A3217A22 /* FilterHeaderTemplate.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7753BC99BBD7E183B91F6E50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7B70EF3319E85012008FBFF4 = {
+			isa = PBXGroup;
+			children = (
+				7B70EF3E19E85012008FBFF4 /* CoreImageFilterEnumeration */,
+				7B70EF5819E85012008FBFF4 /* CoreImageFilterEnumerationTests */,
+				7B70EF3D19E85012008FBFF4 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		7B70EF3D19E85012008FBFF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B70EF3C19E85012008FBFF4 /* CoreImageFilterEnumeration.app */,
+				7B70EF5519E85012008FBFF4 /* CoreImageFilterEnumerationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B70EF3E19E85012008FBFF4 /* CoreImageFilterEnumeration */ = {
+			isa = PBXGroup;
+			children = (
+				7B70EF4319E85012008FBFF4 /* AppDelegate.h */,
+				7B70EF4419E85012008FBFF4 /* AppDelegate.m */,
+				7B70EF4919E85012008FBFF4 /* Main.storyboard */,
+				7B70EF4C19E85012008FBFF4 /* Images.xcassets */,
+				7B70EF4E19E85012008FBFF4 /* LaunchScreen.xib */,
+				7B70EF3F19E85012008FBFF4 /* Supporting Files */,
+				CB772C69E7259B5FD62BF2AB /* Categories */,
+				E2577B6ACB4CE7DDA2E3A7CE /* ModelControllers */,
+				FF9AEE053FAF3A898B2524F3 /* Models */,
+				CABAE594D7B4D0AFAA8A3106 /* Theme */,
+				439035293CEFD0BF916EC3D2 /* ViewControllers */,
+				8808D2124DBB0C3055FC3884 /* Views */,
+				96299053A277346C1A85D57C /* Vendor */,
+				D7C4C249F2118E8F8931533A /* Resources */,
+			);
+			path = CoreImageFilterEnumeration;
+			sourceTree = "<group>";
+		};
+		7B70EF3F19E85012008FBFF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B70EF4019E85012008FBFF4 /* Info.plist */,
+				7B70EF4119E85012008FBFF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B70EF5819E85012008FBFF4 /* CoreImageFilterEnumerationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B70EF5B19E85012008FBFF4 /* CoreImageFilterEnumerationTests.m */,
+				7B70EF5919E85012008FBFF4 /* Supporting Files */,
+			);
+			path = CoreImageFilterEnumerationTests;
+			sourceTree = "<group>";
+		};
+		7B70EF5919E85012008FBFF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B70EF5A19E85012008FBFF4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8808D2124DBB0C3055FC3884 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9474C3780E7C332B01EC7EC8 /* filters */ = {
+			isa = PBXGroup;
+			children = (
+				9474CA29D0AF931318BF8982 /* CIEAccordionFoldTransition.h */,
+				9474CBB88B7408F030023858 /* CIEAccordionFoldTransition.m */,
+				9474C4F688AF32A70F93394C /* CIEAdditionCompositing.h */,
+				9474C152568816DBE93FBEA6 /* CIEAdditionCompositing.m */,
+				9474C78E4B162B09E4B55F90 /* CIEAffineClamp.h */,
+				9474C55474881098A7DBEEC9 /* CIEAffineClamp.m */,
+				9474C6291702496FF2392DC3 /* CIEAffineTile.h */,
+				9474C31A259CE1F4A3E04CA6 /* CIEAffineTile.m */,
+				9474C7C895E9FF0D8877257E /* CIEAffineTransform.h */,
+				9474CA1401D03C85DB400917 /* CIEAffineTransform.m */,
+				9474CFCB96B7CCDE10C1B70B /* CIEAreaHistogram.h */,
+				9474C48C14EB5B25C022BFA0 /* CIEAreaHistogram.m */,
+				9474C17450222163AD250002 /* CIEAztecCodeGenerator.h */,
+				9474C907BFB25D0AA83A4E83 /* CIEAztecCodeGenerator.m */,
+				9474C91605190DEE1DE2AE43 /* CIEBarsSwipeTransition.h */,
+				9474CE3BC40EAA16643F72B8 /* CIEBarsSwipeTransition.m */,
+				9474CB6D4A65C5B5899DE5EA /* CIEBlendWithAlphaMask.h */,
+				9474C5A38A6097DA7077252B /* CIEBlendWithAlphaMask.m */,
+				9474C152CFE14926696BA218 /* CIEBlendWithMask.h */,
+				9474C36DA5D87AF4F185F1E1 /* CIEBlendWithMask.m */,
+				9474C1618B0515A0D2C6FCA1 /* CIEBloom.h */,
+				9474C710F49723DF64C6423C /* CIEBloom.m */,
+				9474CBE448D518897766D769 /* CIEBumpDistortion.h */,
+				9474C5E4BAC318F2CD7B61A7 /* CIEBumpDistortion.m */,
+				9474C658260BD759C84FDB3E /* CIEBumpDistortionLinear.h */,
+				9474CB48D0B6384F90ABAF83 /* CIEBumpDistortionLinear.m */,
+				9474C738868A9385F967DFDC /* CIECheckerboardGenerator.h */,
+				9474C629F970568A4D6F72C8 /* CIECheckerboardGenerator.m */,
+				9474C901C27FEA49A8BAC436 /* CIECircleSplashDistortion.h */,
+				9474CC86ED0CBA98C9D09E4A /* CIECircleSplashDistortion.m */,
+				9474C51D9E03DCCE505BBFB5 /* CIECircularScreen.h */,
+				9474C5270E7BB877195D27F8 /* CIECircularScreen.m */,
+				9474C18D30C7313EBA186395 /* CIECode128BarcodeGenerator.h */,
+				9474C8F842E7CBD95E2DC219 /* CIECode128BarcodeGenerator.m */,
+				9474C5E3BBF0ECA7B5F7E17E /* CIEColorBlendMode.h */,
+				9474C9D253A3E6DFA2C8D821 /* CIEColorBlendMode.m */,
+				9474C6C2CC265021CCCFF742 /* CIEColorBurnBlendMode.h */,
+				9474C32BB0F901065602376A /* CIEColorBurnBlendMode.m */,
+				9474C72A20E43D8508BB0BB4 /* CIEColorClamp.h */,
+				9474CAD5A0EFD7EED7BBFBFB /* CIEColorClamp.m */,
+				9474C511432DEC9DF46F7555 /* CIEColorControls.h */,
+				9474C0F4C3590688CC0C7634 /* CIEColorControls.m */,
+				9474C69E89FCAA3F8CF7E9C9 /* CIEColorCrossPolynomial.h */,
+				9474C000159B963CBB36BD00 /* CIEColorCrossPolynomial.m */,
+				9474C7B9448E62E856D59829 /* CIEColorCube.h */,
+				9474CE2F386C4189D798D966 /* CIEColorCube.m */,
+				9474CF55D9D3C73111C9F711 /* CIEColorCubeWithColorSpace.h */,
+				9474C1F414AC4DED12B98D07 /* CIEColorCubeWithColorSpace.m */,
+				9474C9BCCD81490FCA05AA6E /* CIEColorDodgeBlendMode.h */,
+				9474C927DCDC5374D29E9088 /* CIEColorDodgeBlendMode.m */,
+				9474C562772A3C4CE0112982 /* CIEColorInvert.h */,
+				9474CE9065B3C2254F070CA1 /* CIEColorInvert.m */,
+				9474CF153C81B917A4E68BF3 /* CIEColorMap.h */,
+				9474C7DFB0DEBDA0DB326553 /* CIEColorMap.m */,
+				9474C396E3BE61054BE9D286 /* CIEColorMatrix.h */,
+				9474C9B55EAC256D62FABF33 /* CIEColorMatrix.m */,
+				9474C68903C6837C72BBD6F8 /* CIEColorMonochrome.h */,
+				9474C470CC8D725C6A940F63 /* CIEColorMonochrome.m */,
+				9474C1F3EE18FF70C7C82CB8 /* CIEColorPolynomial.h */,
+				9474CE80716A4B68AE841BB8 /* CIEColorPolynomial.m */,
+				9474CDE6B358A2DE8DF26B0A /* CIEColorPosterize.h */,
+				9474C60FF504C5EACFEDE854 /* CIEColorPosterize.m */,
+				9474C0691089C10D4F5659D6 /* CIEConstantColorGenerator.h */,
+				9474C2072827FB675EC87896 /* CIEConstantColorGenerator.m */,
+				9474C4590C38A66897E888F6 /* CIEConvolution3X3.h */,
+				9474C4606242CF2A1342BA15 /* CIEConvolution3X3.m */,
+				9474C2AF3E2BE1B0F5AE76FA /* CIEConvolution5X5.h */,
+				9474C6E8ECB10BBE1AADD632 /* CIEConvolution5X5.m */,
+				9474C1387571871477E19B93 /* CIEConvolution9Horizontal.h */,
+				9474CB2B3E127894C2D54CAB /* CIEConvolution9Horizontal.m */,
+				9474C6017FE2CA91E10A4CC0 /* CIEConvolution9Vertical.h */,
+				9474CA03AC4D65DA5C6440D0 /* CIEConvolution9Vertical.m */,
+				9474CECEFEA5423848ED15B9 /* CIECopyMachineTransition.h */,
+				9474C9707B42F488913EB98A /* CIECopyMachineTransition.m */,
+				9474C77D7D00ED2839F4FBF8 /* CIECrop.h */,
+				9474C11C2BF215B4AB6DBA6A /* CIECrop.m */,
+				9474C0198512E13A17C5BA4B /* CIEDarkenBlendMode.h */,
+				9474CD25E88A94F06AD2541E /* CIEDarkenBlendMode.m */,
+				9474CDCA9ACCF76873E04FDD /* CIEDifferenceBlendMode.h */,
+				9474C0A42AEDBC134EF269F8 /* CIEDifferenceBlendMode.m */,
+				9474C52928D4724D399E1A68 /* CIEDisintegrateWithMaskTransition.h */,
+				9474C892520986DB17EB266C /* CIEDisintegrateWithMaskTransition.m */,
+				9474C5603C5206408CF1B36D /* CIEDissolveTransition.h */,
+				9474C7A84FFD1437AAC153EA /* CIEDissolveTransition.m */,
+				9474C9F4028CA55276BF86A3 /* CIEDivideBlendMode.h */,
+				9474CCC2544C65F05D578258 /* CIEDivideBlendMode.m */,
+				9474C341B3E51F1134B94584 /* CIEDotScreen.h */,
+				9474C61F3FD9419D9813920E /* CIEDotScreen.m */,
+				9474CB9AC3EE40B214980295 /* CIEEightfoldReflectedTile.h */,
+				9474C9937ECC6D0403F0F2C3 /* CIEEightfoldReflectedTile.m */,
+				9474C3A1CE53D53CCFDFCAB5 /* CIEExclusionBlendMode.h */,
+				9474C72256D351D33EAB9785 /* CIEExclusionBlendMode.m */,
+				9474CEDCF1A682D7B4BCCE6A /* CIEExposureAdjust.h */,
+				9474CCD475C5B15797B06B33 /* CIEExposureAdjust.m */,
+				9474C16D9BF73E7E6F45E465 /* CIEFalseColor.h */,
+				9474C349DB6D6ADBAD4F1B42 /* CIEFalseColor.m */,
+				9474C50481D624A3629DD19E /* CIEFlashTransition.h */,
+				9474C3DF5F5D76D4D4E9FBDD /* CIEFlashTransition.m */,
+				9474CAF2D23064B0B4F903A1 /* CIEFourfoldReflectedTile.h */,
+				9474C567304413B9C150F689 /* CIEFourfoldReflectedTile.m */,
+				9474C0AA4E63B4B74087FDFC /* CIEFourfoldRotatedTile.h */,
+				9474C7E8D4D06CABD7DD49C3 /* CIEFourfoldRotatedTile.m */,
+				9474CEBAEB26C10DB27D623B /* CIEFourfoldTranslatedTile.h */,
+				9474C1B5A55DC3059D1EE7E7 /* CIEFourfoldTranslatedTile.m */,
+				9474CF0E92E3417D7B998A0B /* CIEGammaAdjust.h */,
+				9474CE3DE8DF7441215378D6 /* CIEGammaAdjust.m */,
+				9474CE80A18EB291253EA265 /* CIEGaussianBlur.h */,
+				9474CBD35BB0EB2582A83AEF /* CIEGaussianBlur.m */,
+				9474C18964C5B64825801D32 /* CIEGaussianGradient.h */,
+				9474C7F592352CCDC34471B7 /* CIEGaussianGradient.m */,
+				9474C0F09691DDE4B205F492 /* CIEGlassDistortion.h */,
+				9474CD0BC09BF243DC578BED /* CIEGlassDistortion.m */,
+				9474CA330BCFC7ECD884C4CB /* CIEGlideReflectedTile.h */,
+				9474CFA7BDD45C0931B340F2 /* CIEGlideReflectedTile.m */,
+				9474C93D43661700865FC6B7 /* CIEGloom.h */,
+				9474C64005BAA14B92578664 /* CIEGloom.m */,
+				9474CBAB9EA2AABAC66013F3 /* CIEHardLightBlendMode.h */,
+				9474CD364F20FF05623E4984 /* CIEHardLightBlendMode.m */,
+				9474CECC016BE2473C8980A6 /* CIEHatchedScreen.h */,
+				9474C0456DE35FC8A0ABCE17 /* CIEHatchedScreen.m */,
+				9474CF801A2BAB4D852A3B3A /* CIEHighlightShadowAdjust.h */,
+				9474C242B73146CC97010369 /* CIEHighlightShadowAdjust.m */,
+				9474C8F69872A56280D77548 /* CIEHistogramDisplayFilter.h */,
+				9474C26613236E720949EB4A /* CIEHistogramDisplayFilter.m */,
+				9474C15B118A7E7E9AB3A1C4 /* CIEHoleDistortion.h */,
+				9474CC23F6E0D29BE3D783D2 /* CIEHoleDistortion.m */,
+				9474C5EEA4350544C676E8C9 /* CIEHueAdjust.h */,
+				9474C40EFBB201603CE0B9B0 /* CIEHueAdjust.m */,
+				9474CD26799ADF0A23B842B7 /* CIEHueBlendMode.h */,
+				9474C576ABF5FA4BE985CE75 /* CIEHueBlendMode.m */,
+				9474C12D4037D5C1D9B0EEB9 /* CIELanczosScaleTransform.h */,
+				9474C26E007B6BFF916F996B /* CIELanczosScaleTransform.m */,
+				9474C624C0CA6312B720152A /* CIELightenBlendMode.h */,
+				9474CFFB526FF857E2024269 /* CIELightenBlendMode.m */,
+				9474CC044B8745317D408824 /* CIELightTunnel.h */,
+				9474CA569498A2BAC727D0AF /* CIELightTunnel.m */,
+				9474C19DE671695B65A40618 /* CIELinearBurnBlendMode.h */,
+				9474C316B6002C5275050232 /* CIELinearBurnBlendMode.m */,
+				9474C89ED4E3234382547F4C /* CIELinearDodgeBlendMode.h */,
+				9474C88BD1CD8F01C064487C /* CIELinearDodgeBlendMode.m */,
+				9474CF956C1D4BC7653EF871 /* CIELinearGradient.h */,
+				9474C97E16577E19CFDA18F9 /* CIELinearGradient.m */,
+				9474C0D83E0409FE67734BD8 /* CIELinearToSRGBToneCurve.h */,
+				9474CADCAB6D5FAFCA4E6C21 /* CIELinearToSRGBToneCurve.m */,
+				9474C8E46B5B58162693CBE0 /* CIELineScreen.h */,
+				9474C0E34938D1BDFA451407 /* CIELineScreen.m */,
+				9474C8796C275D1793C25270 /* CIELuminosityBlendMode.h */,
+				9474CF19B4C39D7B7F14D3A9 /* CIELuminosityBlendMode.m */,
+				9474CB6F671AA93D37950A9B /* CIEMaskToAlpha.h */,
+				9474C95A82332E6BE39C37D7 /* CIEMaskToAlpha.m */,
+				9474C0FFAF488FBE9CDDBE8A /* CIEMaximumComponent.h */,
+				9474C701E32044FEEB7ADE8D /* CIEMaximumComponent.m */,
+				9474C53E3721F6B76AC5CAC8 /* CIEMaximumCompositing.h */,
+				9474C4D8DE480AC6B0078A15 /* CIEMaximumCompositing.m */,
+				9474CCAC5D0C916B51B2976F /* CIEMinimumComponent.h */,
+				9474C2175BDD6CD23DA5813E /* CIEMinimumComponent.m */,
+				9474CA3120E78BC22F1D79A3 /* CIEMinimumCompositing.h */,
+				9474CAADE1CE9D66A919CB21 /* CIEMinimumCompositing.m */,
+				9474C3F7C210577C2BF4F6CA /* CIEModTransition.h */,
+				9474C6BB5B87F53FE8BC8D0F /* CIEModTransition.m */,
+				9474C043C0C3237C58E9F9DB /* CIEMultiplyBlendMode.h */,
+				9474CA9C86672587872EE7B3 /* CIEMultiplyBlendMode.m */,
+				9474C861B9D07D82512AC687 /* CIEMultiplyCompositing.h */,
+				9474CCD0A68A33FB25AA3381 /* CIEMultiplyCompositing.m */,
+				9474CAB3B16EF55D053178A5 /* CIEOverlayBlendMode.h */,
+				9474CF2CEEF7C4652DB4ED16 /* CIEOverlayBlendMode.m */,
+				9474C8C006CA396DEFD68D82 /* CIEPerspectiveCorrection.h */,
+				9474CC0378ADEFB4E59A886A /* CIEPerspectiveCorrection.m */,
+				9474C7BDC6D34A3D1F094E40 /* CIEPerspectiveTile.h */,
+				9474CE92036E9EA860CF164D /* CIEPerspectiveTile.m */,
+				9474CA5EE2B9390A4DBEF134 /* CIEPerspectiveTransform.h */,
+				9474CF5D3EAD044A6873F267 /* CIEPerspectiveTransform.m */,
+				9474CDBB8720CDA9072C3A9D /* CIEPerspectiveTransformWithExtent.h */,
+				9474C1C1BC4E00C7FA186D7E /* CIEPerspectiveTransformWithExtent.m */,
+				9474C9AABBFA0CB3BDD5F46A /* CIEPhotoEffectChrome.h */,
+				9474CE04832B5242324ECF39 /* CIEPhotoEffectChrome.m */,
+				9474C243AA37DA38CB3623B2 /* CIEPhotoEffectFade.h */,
+				9474CAA9D75346446D0B3C42 /* CIEPhotoEffectFade.m */,
+				9474C87AD8BE06400B4CCE9E /* CIEPhotoEffectInstant.h */,
+				9474CD986A26786B8971ED2E /* CIEPhotoEffectInstant.m */,
+				9474CDE8441407CBC4E219A5 /* CIEPhotoEffectMono.h */,
+				9474CBE5B73CEB1DE5500660 /* CIEPhotoEffectMono.m */,
+				9474C741680C3759D8FE3CEF /* CIEPhotoEffectNoir.h */,
+				9474CA15CBE6A0110BA327E2 /* CIEPhotoEffectNoir.m */,
+				9474C61DCC6A854C0FE9C719 /* CIEPhotoEffectProcess.h */,
+				9474C2FF10425C98EA7C5E56 /* CIEPhotoEffectProcess.m */,
+				9474C665DEE3BF0C26CAD697 /* CIEPhotoEffectTonal.h */,
+				9474C535AE95C95E5E6534E1 /* CIEPhotoEffectTonal.m */,
+				9474C825880E4E6B65AB5EDC /* CIEPhotoEffectTransfer.h */,
+				9474CE680E1EB4252DE0B217 /* CIEPhotoEffectTransfer.m */,
+				9474CE4FA9495B2D2094AFFB /* CIEPinchDistortion.h */,
+				9474C95207332251A0981F76 /* CIEPinchDistortion.m */,
+				9474C7A88D9420403F35FF18 /* CIEPinLightBlendMode.h */,
+				9474C9B482A83A50A06322EF /* CIEPinLightBlendMode.m */,
+				9474C7952905A26351DABA02 /* CIEPixellate.h */,
+				9474C2CEB3C54CD544181F96 /* CIEPixellate.m */,
+				9474C60EB2BC6F74C606F481 /* CIEQRCodeGenerator.h */,
+				9474C601FB3D5A1A32649869 /* CIEQRCodeGenerator.m */,
+				9474C926E9D56244852768FE /* CIERadialGradient.h */,
+				9474C88B1FB2D69F878A2D95 /* CIERadialGradient.m */,
+				9474CF05E620B014B9E2F13B /* CIERandomGenerator.h */,
+				9474C38751AC45C4F5043550 /* CIERandomGenerator.m */,
+				9474CE962105ADBAB2CEC8F9 /* CIESaturationBlendMode.h */,
+				9474C66581357BF4F778A463 /* CIESaturationBlendMode.m */,
+				9474C3AE3C568B3CE1662F00 /* CIEScreenBlendMode.h */,
+				9474CF05CC18FE0D895C03C5 /* CIEScreenBlendMode.m */,
+				9474CD55009B19C831367344 /* CIESepiaTone.h */,
+				9474C7C47473EB6AC3CF7237 /* CIESepiaTone.m */,
+				9474C143B39E0D565B4E6528 /* CIESharpenLuminance.h */,
+				9474C48A1D400D1BC46CE0AD /* CIESharpenLuminance.m */,
+				9474C9F17BCD40D26C6899CD /* CIESixfoldReflectedTile.h */,
+				9474C1F3C0103BDB3C1B8B75 /* CIESixfoldReflectedTile.m */,
+				9474CA4DEAE04DA2D6110B30 /* CIESixfoldRotatedTile.h */,
+				9474C8D63DB3BB42679BB24A /* CIESixfoldRotatedTile.m */,
+				9474C49139506323A43ADB00 /* CIESmoothLinearGradient.h */,
+				9474CA214DE0748E3B33A8F2 /* CIESmoothLinearGradient.m */,
+				9474C2108EC7797E1B0B5951 /* CIESoftLightBlendMode.h */,
+				9474C016808B12B700DF3645 /* CIESoftLightBlendMode.m */,
+				9474C339FD696FB145D64A29 /* CIESourceAtopCompositing.h */,
+				9474C9B49F075F7C72643F2B /* CIESourceAtopCompositing.m */,
+				9474C9F563F57FC6B4788C8F /* CIESourceInCompositing.h */,
+				9474CEA20324CB2B5D2ED698 /* CIESourceInCompositing.m */,
+				9474C1F068D4F82B1ABF61B0 /* CIESourceOutCompositing.h */,
+				9474C58FC1DC19EF7F30CB59 /* CIESourceOutCompositing.m */,
+				9474C20A187B3A1E945643EE /* CIESourceOverCompositing.h */,
+				9474CB91511A37647F384514 /* CIESourceOverCompositing.m */,
+				9474C7466F27559C05027366 /* CIESRGBToneCurveToLinear.h */,
+				9474C1B800A1DF264094AFDF /* CIESRGBToneCurveToLinear.m */,
+				9474C9051FDEC90DB99B3DB2 /* CIEStarShineGenerator.h */,
+				9474CB03F990440E378E9C4C /* CIEStarShineGenerator.m */,
+				9474C1BDB259E97E994581A8 /* CIEStraightenFilter.h */,
+				9474C432EB28B9CA6CCFA3C1 /* CIEStraightenFilter.m */,
+				9474C7DDB0A8F017DDD335D3 /* CIEStripesGenerator.h */,
+				9474C729A53FAC63E4158EAF /* CIEStripesGenerator.m */,
+				9474C7D308DB8E96DE99AFB0 /* CIESubtractBlendMode.h */,
+				9474C1A55A1EBCD31CF01128 /* CIESubtractBlendMode.m */,
+				9474C9E168D88A842C6F9F00 /* CIESwipeTransition.h */,
+				9474CF447DCD4DC395D38A06 /* CIESwipeTransition.m */,
+				9474CC5027889A8CED248FEB /* CIETemperatureAndTint.h */,
+				9474C6EEC0F146B30DB51C75 /* CIETemperatureAndTint.m */,
+				9474CE3C198D475772F41CE2 /* CIEToneCurve.h */,
+				9474CCFF52F059D73E23AFC0 /* CIEToneCurve.m */,
+				9474C4AC2A38E96170E845A1 /* CIETriangleKaleidoscope.h */,
+				9474CC0411BFE578C5A0DB0B /* CIETriangleKaleidoscope.m */,
+				9474C61EF97015C400AFAA99 /* CIETwelvefoldReflectedTile.h */,
+				9474C5DAF6E390170E6E1CE5 /* CIETwelvefoldReflectedTile.m */,
+				9474C0E1A7BC287903A1A5D5 /* CIETwirlDistortion.h */,
+				9474CE8C308910CDE7C31777 /* CIETwirlDistortion.m */,
+				9474C0226A57792E99917168 /* CIEUnsharpMask.h */,
+				9474C9BC7160BB63CC8068BC /* CIEUnsharpMask.m */,
+				9474C94735CF0907DB6DDAB1 /* CIEVibrance.h */,
+				9474C65A304442ECF9EEA82B /* CIEVibrance.m */,
+				9474C1EA27ADA0700B53E17F /* CIEVignette.h */,
+				9474C7D423B425FC768FCB01 /* CIEVignette.m */,
+				9474C4502B12697A60DC64D9 /* CIEVignetteEffect.h */,
+				9474CA7C9F81D5874122A20D /* CIEVignetteEffect.m */,
+				9474C32AB7F1A25BDCB7667E /* CIEVortexDistortion.h */,
+				9474C971769990D6FA03A501 /* CIEVortexDistortion.m */,
+				9474C87BDBEEA8EFEC2C0CA3 /* CIEWhitePointAdjust.h */,
+				9474CBAB640D2D960A1A8FAA /* CIEWhitePointAdjust.m */,
+				9474C58EC2C350DC901D898D /* CIEFilterBase.m */,
+				9474C2A4ED58ABC6CDEA67F9 /* CIEFilterBase.h */,
+			);
+			path = filters;
+			sourceTree = "<group>";
+		};
+		96299053A277346C1A85D57C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CABAE594D7B4D0AFAA8A3106 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		CB772C69E7259B5FD62BF2AB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D7C4C249F2118E8F8931533A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7753BC99BBD7E183B91F6E50 /* Fonts */,
+				5D3D1E3F66F689C34CE8C7E4 /* Data */,
+				F20D6AFCEB20D727ACC4D54D /* Images */,
+				12B963FE79E3EE082C7BB45E /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2577B6ACB4CE7DDA2E3A7CE /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9474C249E9B4218692C04529 /* CIEFilterEnumerator.h */,
+				9474CFA9B29A3ECD85276BA0 /* CIEFilterEnumerator.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		F20D6AFCEB20D727ACC4D54D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FF9AEE053FAF3A898B2524F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9474C29A57F4AF8FF70B84C5 /* CIEFilterPropertyDescriptor.h */,
+				9474C2B0B888D0A807DF8A7A /* CIEFilterDescriptor.h */,
+				9474C96B5B2CBAC10FB7F106 /* CIEFilterPropertyDescriptor.m */,
+				9474CAE9C1B17AF833E34BEB /* CIEFilterDescriptor.m */,
+				9474C3780E7C332B01EC7EC8 /* filters */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B70EF3B19E85012008FBFF4 /* CoreImageFilterEnumeration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B70EF5F19E85012008FBFF4 /* Build configuration list for PBXNativeTarget "CoreImageFilterEnumeration" */;
+			buildPhases = (
+				7B70EF3819E85012008FBFF4 /* Sources */,
+				7B70EF3919E85012008FBFF4 /* Frameworks */,
+				7B70EF3A19E85012008FBFF4 /* Resources */,
+				F1BFA293B5597BAB73D8F5F6 /* Warn for TODO and FIXME comments */,
+				EA49162FB8EE9C2936DE4F95 /* Update build number */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreImageFilterEnumeration;
+			productName = CoreImageFilterEnumeration;
+			productReference = 7B70EF3C19E85012008FBFF4 /* CoreImageFilterEnumeration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B70EF5419E85012008FBFF4 /* CoreImageFilterEnumerationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B70EF6219E85012008FBFF4 /* Build configuration list for PBXNativeTarget "CoreImageFilterEnumerationTests" */;
+			buildPhases = (
+				7B70EF5119E85012008FBFF4 /* Sources */,
+				7B70EF5219E85012008FBFF4 /* Frameworks */,
+				7B70EF5319E85012008FBFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B70EF5719E85012008FBFF4 /* PBXTargetDependency */,
+			);
+			name = CoreImageFilterEnumerationTests;
+			productName = CoreImageFilterEnumerationTests;
+			productReference = 7B70EF5519E85012008FBFF4 /* CoreImageFilterEnumerationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B70EF3419E85012008FBFF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CIE;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Joshua Sullivan";
+				TargetAttributes = {
+					7B70EF3B19E85012008FBFF4 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7B70EF5419E85012008FBFF4 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7B70EF3B19E85012008FBFF4;
+					};
+				};
+			};
+			buildConfigurationList = 7B70EF3719E85012008FBFF4 /* Build configuration list for PBXProject "CoreImageFilterEnumeration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B70EF3319E85012008FBFF4;
+			productRefGroup = 7B70EF3D19E85012008FBFF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B70EF3B19E85012008FBFF4 /* CoreImageFilterEnumeration */,
+				7B70EF5419E85012008FBFF4 /* CoreImageFilterEnumerationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B70EF3A19E85012008FBFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B70EF4B19E85012008FBFF4 /* Main.storyboard in Resources */,
+				7B70EF5019E85012008FBFF4 /* LaunchScreen.xib in Resources */,
+				7B70EF4D19E85012008FBFF4 /* Images.xcassets in Resources */,
+				FDB3C861C0BCFE5125A9A599 /* Settings.bundle in Resources */,
+				9474C0C8C9854923B95B2234 /* FilterImplementationTemplate.txt in Resources */,
+				9474CD9D2DAF25382D61A6EE /* FilterHeaderTemplate.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B70EF5319E85012008FBFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA49162FB8EE9C2936DE4F95 /* Update build number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update build number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"${TARGET_BUILD_DIR}\"\nbuildPlist=\"${TARGET_BUILD_DIR}\"/\"${INFOPLIST_PATH}\"\n\n# Increment the build number to match the git version\nsvnRevision=`git log --oneline | wc -l`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $svnRevision\" \"$buildPlist\"\n\nbundleVersion=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$buildPlist\")\nbundleShortVersionString=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$buildPlist\")\n\n# Update the Settings.bundle\nnewVersion=\"${bundleShortVersionString} (${bundleVersion})\"\n/usr/libexec/PlistBuddy \"${TARGET_BUILD_DIR}\"/\"${PRODUCT_NAME}.app\"/Settings.bundle/Root.plist -c \"set PreferenceSpecifiers:1:DefaultValue $newVersion\"\necho \"newVersion: ${newVersion}\"\n";
+		};
+		F1BFA293B5597BAB73D8F5F6 /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B70EF3819E85012008FBFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B70EF4519E85012008FBFF4 /* AppDelegate.m in Sources */,
+				7B70EF4219E85012008FBFF4 /* main.m in Sources */,
+				9474C433A0D34EE50DA57559 /* CIEFilterEnumerator.m in Sources */,
+				9474CDAA2219DAD2EF259654 /* CIEFilterPropertyDescriptor.m in Sources */,
+				9474C6D7168C9D39439FC344 /* CIEFilterDescriptor.m in Sources */,
+				9474C2BD903FAB02CE163789 /* ViewController.m in Sources */,
+				9474C8E5C80F53B223DE8CB4 /* CIEAccordionFoldTransition.m in Sources */,
+				9474CC41C70B1A9134918442 /* CIEAdditionCompositing.m in Sources */,
+				9474C4872C51347CEE1642F5 /* CIEAffineClamp.m in Sources */,
+				9474C9C516B7B38E1CBC8E5C /* CIEAffineTile.m in Sources */,
+				9474C0F5A297A4396D7A5449 /* CIEAffineTransform.m in Sources */,
+				9474CB7E36D32FDE87CE9AA6 /* CIEAreaHistogram.m in Sources */,
+				9474C93E54EE0F7ADA00B755 /* CIEAztecCodeGenerator.m in Sources */,
+				9474C97B5E6D9EF7BBDBC493 /* CIEBarsSwipeTransition.m in Sources */,
+				9474C5919934B77776A01B39 /* CIEBlendWithAlphaMask.m in Sources */,
+				9474C12A74249F46BD130032 /* CIEBlendWithMask.m in Sources */,
+				9474C732607E67D2A9D43254 /* CIEBloom.m in Sources */,
+				9474C76A7B4A45FB3B358595 /* CIEBumpDistortion.m in Sources */,
+				9474C9B96468ACF0CFA360F3 /* CIEBumpDistortionLinear.m in Sources */,
+				9474CFC3ACBA236402A1BE43 /* CIECheckerboardGenerator.m in Sources */,
+				9474CFFDA5B7A5C7CAA06945 /* CIECircleSplashDistortion.m in Sources */,
+				9474C6362D2BCC1BA9A8FCF7 /* CIECircularScreen.m in Sources */,
+				9474CDC44F91B840CBCCD842 /* CIECode128BarcodeGenerator.m in Sources */,
+				9474C06A75BFBD4719E4138A /* CIEColorBlendMode.m in Sources */,
+				9474CA068B7251CBE37BDCC2 /* CIEColorBurnBlendMode.m in Sources */,
+				9474C0FAE44A4DD7B88A9BC7 /* CIEColorClamp.m in Sources */,
+				9474C9F41B73EDE457190C53 /* CIEColorControls.m in Sources */,
+				9474C9CE0815409BA48E321B /* CIEColorCrossPolynomial.m in Sources */,
+				9474C11FA72A4AA38D1784E3 /* CIEColorCube.m in Sources */,
+				9474C2A6F810F52C84B5EE88 /* CIEColorCubeWithColorSpace.m in Sources */,
+				9474C28F6436BD5201C90BD1 /* CIEColorDodgeBlendMode.m in Sources */,
+				9474C65DE5AA2E16FAC1B532 /* CIEColorInvert.m in Sources */,
+				9474C9282A03E97660370E22 /* CIEColorMap.m in Sources */,
+				9474C0194E507A9C4591BB67 /* CIEColorMatrix.m in Sources */,
+				9474C28CB5A6A6CAA982E002 /* CIEColorMonochrome.m in Sources */,
+				9474C09AF122D940205BC7F4 /* CIEColorPolynomial.m in Sources */,
+				9474C82EB05329F9CA45A97B /* CIEColorPosterize.m in Sources */,
+				9474C4F19ED764C9B4E076EC /* CIEConstantColorGenerator.m in Sources */,
+				9474CC3E6EAEE0B920D7BB6A /* CIEConvolution3X3.m in Sources */,
+				9474CE96CFC592AFAEE1FF7B /* CIEConvolution5X5.m in Sources */,
+				9474CA46A640EB19FCC00399 /* CIEConvolution9Horizontal.m in Sources */,
+				9474C3F2A1585A613381E4E8 /* CIEConvolution9Vertical.m in Sources */,
+				9474CD8CA7EFBDE8880F6772 /* CIECopyMachineTransition.m in Sources */,
+				9474C1FE4E9C43BC676824AF /* CIECrop.m in Sources */,
+				9474C668BF34B436BFBE3C85 /* CIEDarkenBlendMode.m in Sources */,
+				9474C04F384DB22EA9CE438C /* CIEDifferenceBlendMode.m in Sources */,
+				9474C6A7CBA931413BD81C5D /* CIEDisintegrateWithMaskTransition.m in Sources */,
+				9474C9AD38AA3B016F0A3883 /* CIEDissolveTransition.m in Sources */,
+				9474C9CC5D2790746EFCD8B1 /* CIEDivideBlendMode.m in Sources */,
+				9474C036252958A4DFA3C1B0 /* CIEDotScreen.m in Sources */,
+				9474C0D8BCAB3B42A879FE0A /* CIEEightfoldReflectedTile.m in Sources */,
+				9474CD0A670FCB06DC1F4131 /* CIEExclusionBlendMode.m in Sources */,
+				9474CD5ACD68AB5798903E06 /* CIEExposureAdjust.m in Sources */,
+				9474C8625A91919BF3081BF3 /* CIEFalseColor.m in Sources */,
+				9474C84D76FE99194C0CE93D /* CIEFlashTransition.m in Sources */,
+				9474C6913A920A2747947191 /* CIEFourfoldReflectedTile.m in Sources */,
+				9474C22D0AC84D31CA269BAA /* CIEFourfoldRotatedTile.m in Sources */,
+				9474C0BC8293695759E049A0 /* CIEFourfoldTranslatedTile.m in Sources */,
+				9474C712B2C9C2017E0CDB12 /* CIEGammaAdjust.m in Sources */,
+				9474C6F3565D8DEF6CD369CA /* CIEGaussianBlur.m in Sources */,
+				9474C22BFE9B83AED96650DB /* CIEGaussianGradient.m in Sources */,
+				9474C40266A7104EC5AA3173 /* CIEGlassDistortion.m in Sources */,
+				9474C4FD1F7815E516904309 /* CIEGlideReflectedTile.m in Sources */,
+				9474C0873DEFA52EB2C1FD07 /* CIEGloom.m in Sources */,
+				9474C06528351513266721A4 /* CIEHardLightBlendMode.m in Sources */,
+				9474C5FD8A7BCB8344143F10 /* CIEHatchedScreen.m in Sources */,
+				9474CA41D6D20958FEBB0E3C /* CIEHighlightShadowAdjust.m in Sources */,
+				9474C620408107D8577C6476 /* CIEHistogramDisplayFilter.m in Sources */,
+				9474CD431F33127D778A4076 /* CIEHoleDistortion.m in Sources */,
+				9474C0D1B1E9584BB4D9A562 /* CIEHueAdjust.m in Sources */,
+				9474C4A1896D4CC04D218EE1 /* CIEHueBlendMode.m in Sources */,
+				9474C2C9B7756420C06F71C5 /* CIELanczosScaleTransform.m in Sources */,
+				9474C1AA2FBE5E7C51BC4FBE /* CIELightenBlendMode.m in Sources */,
+				9474C7DCC03E71A44EE595D8 /* CIELightTunnel.m in Sources */,
+				9474C33D63F74C2F62928D2D /* CIELinearBurnBlendMode.m in Sources */,
+				9474C19685363042DD7DF528 /* CIELinearDodgeBlendMode.m in Sources */,
+				9474CC3B74F2D5CCE7B0773F /* CIELinearGradient.m in Sources */,
+				9474C091CBDB2A37F9BB7B1B /* CIELinearToSRGBToneCurve.m in Sources */,
+				9474CB5638EECB1A1E8AF37C /* CIELineScreen.m in Sources */,
+				9474C6D3A7ADB70476D189B6 /* CIELuminosityBlendMode.m in Sources */,
+				9474C66FAD6BF275E638A0AE /* CIEMaskToAlpha.m in Sources */,
+				9474CE1EF5A740358663641F /* CIEMaximumComponent.m in Sources */,
+				9474CAFCE0CB24B22913B657 /* CIEMaximumCompositing.m in Sources */,
+				9474C966D86A230A992527D5 /* CIEMinimumComponent.m in Sources */,
+				9474C44BD9EF9F2BC12EF846 /* CIEMinimumCompositing.m in Sources */,
+				9474CF1DC362093CA0719B71 /* CIEModTransition.m in Sources */,
+				9474CE165DDCDA6B4CBFBBEC /* CIEMultiplyBlendMode.m in Sources */,
+				9474CBBFE75B3C2084261F3D /* CIEMultiplyCompositing.m in Sources */,
+				9474CFCA4938A655D135DDFB /* CIEOverlayBlendMode.m in Sources */,
+				9474C1E657710BBAFC1B6180 /* CIEPerspectiveCorrection.m in Sources */,
+				9474C7838CA720002692E22A /* CIEPerspectiveTile.m in Sources */,
+				9474C1F7356D2A89250AA0BD /* CIEPerspectiveTransform.m in Sources */,
+				9474CEECADFC097C703B70DC /* CIEPerspectiveTransformWithExtent.m in Sources */,
+				9474C916C90AA00D05B56AC9 /* CIEPhotoEffectChrome.m in Sources */,
+				9474CFBCD965BBB51DFB3A06 /* CIEPhotoEffectFade.m in Sources */,
+				9474C9B10E69E8EECDD7172D /* CIEPhotoEffectInstant.m in Sources */,
+				9474C3AF3621C42F7F3A34FB /* CIEPhotoEffectMono.m in Sources */,
+				9474C1FB806CAB2D6C854663 /* CIEPhotoEffectNoir.m in Sources */,
+				9474CA0721309E1928E9726C /* CIEPhotoEffectProcess.m in Sources */,
+				9474CFCC08A770A9A67F76A9 /* CIEPhotoEffectTonal.m in Sources */,
+				9474CFF9775BD6BCEB31FAB3 /* CIEPhotoEffectTransfer.m in Sources */,
+				9474C481D9B20E490DD21C45 /* CIEPinchDistortion.m in Sources */,
+				9474CD694E4ED2A816C4ED01 /* CIEPinLightBlendMode.m in Sources */,
+				9474C1B287E6B41EC36053BC /* CIEPixellate.m in Sources */,
+				9474CC8CD157D9ED9184079C /* CIEQRCodeGenerator.m in Sources */,
+				9474CDFDA792411E5E271057 /* CIERadialGradient.m in Sources */,
+				9474C40BE3FF1A98190E07FD /* CIERandomGenerator.m in Sources */,
+				9474CBF71BCF9720F83FA641 /* CIESaturationBlendMode.m in Sources */,
+				9474C3BB4AF7E8B1EFCE8943 /* CIEScreenBlendMode.m in Sources */,
+				9474C2F0FBF38E6FFD5B6F9A /* CIESepiaTone.m in Sources */,
+				9474C05630EC7A8A81C12467 /* CIESharpenLuminance.m in Sources */,
+				9474C528ACDA0B84C5F0A030 /* CIESixfoldReflectedTile.m in Sources */,
+				9474C1DD248C7B376B7E7AA3 /* CIESixfoldRotatedTile.m in Sources */,
+				9474C1FD579C90D41C73F4E7 /* CIESmoothLinearGradient.m in Sources */,
+				9474CC0E772F7FF42B867528 /* CIESoftLightBlendMode.m in Sources */,
+				9474CE186D7374121E1F0AE9 /* CIESourceAtopCompositing.m in Sources */,
+				9474CA354F3A46017CFB3126 /* CIESourceInCompositing.m in Sources */,
+				9474CEFE2D10B2E483B73C09 /* CIESourceOutCompositing.m in Sources */,
+				9474C945C44FCBA33D7EA06A /* CIESourceOverCompositing.m in Sources */,
+				9474C84AC945EDC791FB844E /* CIESRGBToneCurveToLinear.m in Sources */,
+				9474CDBDF3A61F2D0244441C /* CIEStarShineGenerator.m in Sources */,
+				9474CA3F25B38A676D94A33A /* CIEStraightenFilter.m in Sources */,
+				9474CA96918A4B32D202251A /* CIEStripesGenerator.m in Sources */,
+				9474C4E76337652901EE5F9E /* CIESubtractBlendMode.m in Sources */,
+				9474C195D053E15F190C7D70 /* CIESwipeTransition.m in Sources */,
+				9474C8DDFC997E63812C9961 /* CIETemperatureAndTint.m in Sources */,
+				9474C6DCA3D917061C9F40BE /* CIEToneCurve.m in Sources */,
+				9474C65FACAB17C10744EBC3 /* CIETriangleKaleidoscope.m in Sources */,
+				9474C12C6101496E3065276D /* CIETwelvefoldReflectedTile.m in Sources */,
+				9474CE6F5D97716CAB3A5598 /* CIETwirlDistortion.m in Sources */,
+				9474C496A7A18ABA93DF9930 /* CIEUnsharpMask.m in Sources */,
+				9474C2F2A05E57BAE6E49859 /* CIEVibrance.m in Sources */,
+				9474CB67D62812C9124E1AC5 /* CIEVignette.m in Sources */,
+				9474CCED7B76692F5FB19BAC /* CIEVignetteEffect.m in Sources */,
+				9474CB3285C241183905FC2E /* CIEVortexDistortion.m in Sources */,
+				9474C5E1D8606D0E2CB01190 /* CIEWhitePointAdjust.m in Sources */,
+				9474C1431EB6E81348183DED /* CIEFilterBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B70EF5119E85012008FBFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B70EF5C19E85012008FBFF4 /* CoreImageFilterEnumerationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B70EF5719E85012008FBFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B70EF3B19E85012008FBFF4 /* CoreImageFilterEnumeration */;
+			targetProxy = 7B70EF5619E85012008FBFF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B70EF4919E85012008FBFF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B70EF4A19E85012008FBFF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B70EF4E19E85012008FBFF4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B70EF4F19E85012008FBFF4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B70EF5D19E85012008FBFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B70EF5E19E85012008FBFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B70EF6019E85012008FBFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreImageFilterEnumeration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B70EF6119E85012008FBFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreImageFilterEnumeration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B70EF6319E85012008FBFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreImageFilterEnumerationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreImageFilterEnumeration.app/CoreImageFilterEnumeration";
+			};
+			name = Debug;
+		};
+		7B70EF6419E85012008FBFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreImageFilterEnumerationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreImageFilterEnumeration.app/CoreImageFilterEnumeration";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B70EF3719E85012008FBFF4 /* Build configuration list for PBXProject "CoreImageFilterEnumeration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B70EF5D19E85012008FBFF4 /* Debug */,
+				7B70EF5E19E85012008FBFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B70EF5F19E85012008FBFF4 /* Build configuration list for PBXNativeTarget "CoreImageFilterEnumeration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B70EF6019E85012008FBFF4 /* Debug */,
+				7B70EF6119E85012008FBFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B70EF6219E85012008FBFF4 /* Build configuration list for PBXNativeTarget "CoreImageFilterEnumerationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B70EF6319E85012008FBFF4 /* Debug */,
+				7B70EF6419E85012008FBFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B70EF3419E85012008FBFF4 /* Project object */;
+}

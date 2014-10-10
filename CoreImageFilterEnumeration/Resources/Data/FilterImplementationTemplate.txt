@@ -1,0 +1,17 @@
+//
+// %@.m
+// CoreImageFilterEnumeration
+//
+// Created by %@ on %@.
+// Copyright (c) 2014 %@. All rights reserved.
+
+#import "%@.h"
+
+@implementation %@
+
+- (NSString *)filterName
+{
+    return @"%@";
+}
+
+@end
