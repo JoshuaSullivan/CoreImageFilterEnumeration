@@ -6,7 +6,7 @@
 // Copyright (c) 2014 Joshua Sullivan. All rights reserved.
 
 
-@import CoreImage.h;
+@import CoreImage;
 
 @interface CIEFilterBase : CIFilter
 
