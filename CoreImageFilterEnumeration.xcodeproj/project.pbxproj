@@ -324,8 +324,6 @@
 		7B70F0EC19E871A6008FBFF4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		7B70F0F319E871A6008FBFF4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7B70F0F419E871A6008FBFF4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7B70F19619E87647008FBFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B70F19719E87647008FBFF4 /* TempFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempFramework.h; sourceTree = "<group>"; };
 		7B70F1B219E8770B008FBFF4 /* CIEAccordionFoldTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAccordionFoldTransition.h; sourceTree = "<group>"; };
 		7B70F1B319E8770B008FBFF4 /* CIEAccordionFoldTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIEAccordionFoldTransition.m; sourceTree = "<group>"; };
 		7B70F1B419E8770B008FBFF4 /* CIEAdditionCompositing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIEAdditionCompositing.h; sourceTree = "<group>"; };
@@ -613,7 +611,6 @@
 			children = (
 				7B70EF8319E8709A008FBFF4 /* CoreImageFilterEnumeration */,
 				7B70EFA719E87174008FBFF4 /* EnumerationGenerator */,
-				7B70F19419E87647008FBFF4 /* TempFramework */,
 				7B70EF3D19E85012008FBFF4 /* Products */,
 			);
 			indentWidth = 4;
@@ -1047,23 +1044,6 @@
 			children = (
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		7B70F19419E87647008FBFF4 /* TempFramework */ = {
-			isa = PBXGroup;
-			children = (
-				7B70F19719E87647008FBFF4 /* TempFramework.h */,
-				7B70F19519E87647008FBFF4 /* Supporting Files */,
-			);
-			path = TempFramework;
-			sourceTree = "<group>";
-		};
-		7B70F19519E87647008FBFF4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B70F19619E87647008FBFF4 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
