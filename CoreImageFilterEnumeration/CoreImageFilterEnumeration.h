@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Joshua Sullivan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
 //! Project version number for CoreImageFilterEnumeration.
 FOUNDATION_EXPORT double CoreImageFilterEnumerationVersionNumber;

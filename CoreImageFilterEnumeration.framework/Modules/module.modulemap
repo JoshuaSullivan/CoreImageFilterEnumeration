@@ -1,6 +1,0 @@
-framework module CoreImageFilterEnumeration {
-  umbrella header "CoreImageFilterEnumeration.h"
-
-  export *
-  module * { export * }
-}
